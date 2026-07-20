@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yerli Hisse Sistemleri</title>
+<style>
+:root{--bg:#f4f6f8;--card:#fff;--text:#17202a;--muted:#6b7280;--border:#d7dde5;--buy:#067647;--sell:#b42318}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:14px Arial,sans-serif}
+.wrap{padding:18px} .header{background:var(--card);border:1px solid var(--border);padding:16px;margin-bottom:14px;border-radius:10px}
+h1{margin:0 0 8px;font-size:22px} .muted{color:var(--muted)} .table-wrap{overflow:auto;background:var(--card);border:1px solid var(--border);border-radius:10px}
+table{border-collapse:collapse;min-width:2200px;width:100%} th,td{border-bottom:1px solid var(--border);border-right:1px solid var(--border);padding:9px;vertical-align:top}
+th{position:sticky;top:0;background:#1f4e78;color:white;white-space:nowrap;z-index:2} tr:last-child td{border-bottom:0}
+.chip{display:inline-block;padding:3px 6px;margin:1px;border-radius:5px;background:#eef2f6;white-space:nowrap} .buy .chip{background:#dcfae6;color:var(--buy)} .sell .chip{background:#fee4e2;color:var(--sell)}
+.status{font-weight:bold;white-space:nowrap} .status.ready{color:var(--buy)} .status.stale_data,.status.incomplete_data,.status.parameter_training_failed{color:var(--sell)}
+details{min-width:110px} pre{white-space:pre-wrap;min-width:300px;max-width:480px} ul{margin:6px 0 0}
+</style></head><body><div class="wrap">
+<div class="header"><h1>Yerli Hisse Sistemleri</h1>
+<div>Rapor: <strong>BIST-20260720T102826-e580118e</strong> | Oluşturma: 2026-07-20T10:28:26 | Veri tarihi: <strong>2026-07-17</strong> | Çeyrek: <strong>2026-Q3</strong></div>
+<div class="muted">Maliyet: %0. BIST fiyatları TL&#x27;den USD&#x27;ye çevrilerek değerlendirilir. Bu sayfada yalnız Yerli BIST evreni vardır. Parametre, TEST, sinyal ve teorik pozisyonlar diğer piyasa ile karıştırılmaz. Uygulama zamanı kullanıcıya aittir.</div>
+</div>
+<div class="table-wrap"><table><thead><tr>
+<th>Sistem</th><th>Durum</th><th>Sistem pozisyonu</th><th>SAT sinyali</th><th>TUT</th><th>AL sinyali</th><th>Sıfırdan hedef</th><th>Aktif parametreler</th>
+<th>TRAIN ort. yıllık</th><th>TRAIN max DD</th><th>Son 3Y TEST ort. yıllık</th><th>Son 3Y TEST max DD</th><th>Bu yıl</th><th>Bu yıl max DD</th><th>Yıl tepesinden düşüş</th><th>Veri tarihi</th>
+</tr></thead><tbody><tr><td><strong>L02_DUAL_THRUST</strong><br><span class='muted'>P5</span></td><td><span class='status ready'>READY</span></td><td><span class="muted">NAKİT</span></td><td class='sell'><span class="muted">—</span></td><td><span class="muted">—</span></td><td class='buy'><span class="muted">—</span></td><td><span class="muted">NAKİT</span></td><td><details><summary>Göster</summary><pre>{
+  &quot;k&quot;: 0.3,
+  &quot;n&quot;: 20,
+  &quot;volume_z_min&quot;: -0.5
+}</pre></details></td><td>53.03%</td><td>-42.01%</td><td>39.50%</td><td>-35.07%</td><td>23.27%</td><td>-16.38%</td><td>-15.14%</td><td>2026-07-17</td></tr><tr><td><strong>R01_FAST_ROTATION_TARGET</strong><br><span class='muted'>P3</span></td><td><span class='status ready'>READY</span></td><td><span class="muted">NAKİT</span></td><td class='sell'><span class="muted">—</span></td><td><span class="muted">—</span></td><td class='buy'><span class="muted">—</span></td><td><span class="muted">NAKİT</span></td><td><details><summary>Göster</summary><pre>{
+  &quot;breadth_min&quot;: 0.5,
+  &quot;dispersion_min&quot;: 0.01,
+  &quot;horizons&quot;: [
+    2,
+    5,
+    10
+  ],
+  &quot;monthly_profit_lock_pct&quot;: 0.0,
+  &quot;score_weights&quot;: [
+    0.5,
+    0.3,
+    0.2
+  ],
+  &quot;trend_ma&quot;: 50
+}</pre></details></td><td>70.41%</td><td>-33.10%</td><td>20.67%</td><td>-14.26%</td><td>13.36%</td><td>-11.87%</td><td>-10.84%</td><td>2026-07-17</td></tr><tr><td><strong>L01_R_BREAKER</strong><br><span class='muted'>P1</span></td><td><span class='status ready'>READY</span></td><td><span class="muted">NAKİT</span></td><td class='sell'><span class="muted">—</span></td><td><span class="muted">—</span></td><td class='buy'><span class="chip">KRDMD 100.0%</span></td><td><span class="chip">KRDMD 100.0%</span></td><td><details><summary>Göster</summary><pre>{
+  &quot;volume_confirm&quot;: true,
+  &quot;volume_z_min&quot;: 0.0
+}</pre></details></td><td>45.26%</td><td>-59.01%</td><td>38.91%</td><td>-34.10%</td><td>9.17%</td><td>-28.96%</td><td>-19.09%</td><td>2026-07-17</td></tr><tr><td><strong>L25_IMITATIVE_RDPG_PROXY</strong><br><span class='muted'>P1</span></td><td><span class='status ready'>READY</span></td><td><span class="muted">NAKİT</span></td><td class='sell'><span class="muted">—</span></td><td><span class="muted">—</span></td><td class='buy'><span class="chip">AKSEN 100.0%</span></td><td><span class="chip">AKSEN 100.0%</span></td><td><details><summary>Göster</summary><pre>{
+  &quot;momentum_window&quot;: 40,
+  &quot;prob_threshold&quot;: 0.75,
+  &quot;teacher_weight&quot;: 0.5
+}</pre></details></td><td>106.91%</td><td>-79.09%</td><td>73.18%</td><td>-34.55%</td><td>0.35%</td><td>-26.05%</td><td>-6.02%</td><td>2026-07-17</td></tr></tbody></table></div></div></body></html>
