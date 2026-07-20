@@ -1,0 +1,1107 @@
+{
+  "schema_version": "2.1.0",
+  "generated_at": "2026-07-20T11:55:58",
+  "database_file": "Hisseler.db",
+  "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
+  "reports": {
+    "BIST": {
+      "schema_version": "2.1.0",
+      "report_id": "BIST-20260720T115558-d0e29770",
+      "generated_at": "2026-07-20T11:55:58",
+      "market_scope": "BIST",
+      "market_name": "Yerli BIST",
+      "data_status": "READY",
+      "signal_date": "2026-07-17",
+      "execution_date": null,
+      "execution_timing": "USER_DECIDES",
+      "active_quarter": "2026-Q3",
+      "database_quarter_key": "BIST|2026-Q3",
+      "data_source": "Yahoo Finance BIST TRY -> adjusted USD -> Hisseler.db",
+      "database_file": "Hisseler.db",
+      "one_way_cost_pct": 0.0,
+      "fixed_excluded_symbols": [
+        "KUYAS",
+        "MIATK"
+      ],
+      "active_universe": [
+        "AEFES",
+        "AKBNK",
+        "AKSEN",
+        "ALARK",
+        "ASELS",
+        "BIMAS",
+        "BRSAN",
+        "BTCIM",
+        "CCOLA",
+        "CIMSA",
+        "ECILC",
+        "EKGYO",
+        "ENKAI",
+        "EREGL",
+        "FROTO",
+        "GARAN",
+        "GUBRF",
+        "HALKB",
+        "HEKTS",
+        "ISCTR",
+        "KCHOL",
+        "KRDMD",
+        "MGROS",
+        "OYAKC",
+        "PETKM",
+        "SAHOL",
+        "SASA",
+        "SISE",
+        "TAVHL",
+        "TCELL",
+        "THYAO",
+        "TOASO",
+        "TRALT",
+        "TRMET",
+        "TTKOM",
+        "TUPRS",
+        "TURSG",
+        "ULKER",
+        "VAKBN",
+        "YKBNK"
+      ],
+      "active_universe_details": [
+        {
+          "symbol": "AEFES",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "AKBNK",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "AKSEN",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "ALARK",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "ASELS",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "BIMAS",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "BRSAN",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "BTCIM",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "CCOLA",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "CIMSA",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "ECILC",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "EKGYO",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "ENKAI",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "EREGL",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "FROTO",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "GARAN",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "GUBRF",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "HALKB",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "HEKTS",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "ISCTR",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "KCHOL",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "KRDMD",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "MGROS",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "OYAKC",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "PETKM",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "SAHOL",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "SASA",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "SISE",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "TAVHL",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "TCELL",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "THYAO",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "TOASO",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "TRALT",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "TRMET",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "TTKOM",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "TUPRS",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "TURSG",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "ULKER",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "VAKBN",
+          "market": "BIST",
+          "native_currency": "TRY"
+        },
+        {
+          "symbol": "YKBNK",
+          "market": "BIST",
+          "native_currency": "TRY"
+        }
+      ],
+      "fixed_bist_symbols": [
+        "AEFES",
+        "AKBNK",
+        "AKSEN",
+        "ALARK",
+        "ASELS",
+        "BIMAS",
+        "BRSAN",
+        "BTCIM",
+        "CCOLA",
+        "CIMSA",
+        "ECILC",
+        "EKGYO",
+        "ENKAI",
+        "EREGL",
+        "FROTO",
+        "GARAN",
+        "GUBRF",
+        "HALKB",
+        "HEKTS",
+        "ISCTR",
+        "KCHOL",
+        "KRDMD",
+        "MGROS",
+        "OYAKC",
+        "PETKM",
+        "SAHOL",
+        "SASA",
+        "SISE",
+        "TAVHL",
+        "TCELL",
+        "THYAO",
+        "TOASO",
+        "TRALT",
+        "TRMET",
+        "TTKOM",
+        "TUPRS",
+        "TURSG",
+        "ULKER",
+        "VAKBN",
+        "YKBNK"
+      ],
+      "fixed_us_symbols": [],
+      "latest_symbol_coverage": 1.0,
+      "last_3y_completed_test_quarters": [
+        "2023-Q3",
+        "2023-Q4",
+        "2024-Q1",
+        "2024-Q2",
+        "2024-Q3",
+        "2024-Q4",
+        "2025-Q1",
+        "2025-Q2",
+        "2025-Q3",
+        "2025-Q4",
+        "2026-Q1",
+        "2026-Q2"
+      ],
+      "systems": [
+        {
+          "market_scope": "BIST",
+          "system_id": "L02_DUAL_THRUST",
+          "system_name": "Dual Thrust Long-Only",
+          "portfolio_size": 5,
+          "quarter_id": "2026-Q3",
+          "database_quarter_key": "BIST|2026-Q3",
+          "data_status": "READY",
+          "actionable": true,
+          "signal_date": "2026-07-17",
+          "execution_date": null,
+          "execution_timing": "USER_DECIDES",
+          "current_positions": [],
+          "sell_signal": [],
+          "hold_signal": [],
+          "buy_signal": [],
+          "rebalance_signal": [],
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
+          "parameters": {
+            "k": 0.3,
+            "n": 20,
+            "volume_z_min": -0.5
+          },
+          "parameter_calculation_date": "2026-07-20T11:31:29",
+          "train_start": "2016-07-01",
+          "train_end": "2026-06-30",
+          "performance": {
+            "train_average_annual_return": 0.4663628321765601,
+            "train_max_drawdown": -0.4295961645894122,
+            "last_3y_test_average_annual_return": 0.3275575034218672,
+            "last_3y_test_max_drawdown": -0.35801176920631106,
+            "current_year_return": 0.2631011953306448,
+            "current_year_max_drawdown": -0.14726932090219857,
+            "current_drawdown_from_year_high": -0.1346511091751793,
+            "completed_test_quarters": 12
+          }
+        },
+        {
+          "market_scope": "BIST",
+          "system_id": "R01_FAST_ROTATION_TARGET",
+          "system_name": "Fast Rotation Target",
+          "portfolio_size": 3,
+          "quarter_id": "2026-Q3",
+          "database_quarter_key": "BIST|2026-Q3",
+          "data_status": "READY",
+          "actionable": true,
+          "signal_date": "2026-07-17",
+          "execution_date": null,
+          "execution_timing": "USER_DECIDES",
+          "current_positions": [],
+          "sell_signal": [],
+          "hold_signal": [],
+          "buy_signal": [],
+          "rebalance_signal": [],
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
+          "parameters": {
+            "breadth_min": 0.5,
+            "dispersion_min": 0.01,
+            "horizons": [
+              2,
+              5,
+              10
+            ],
+            "monthly_profit_lock_pct": 0.0,
+            "score_weights": [
+              0.5,
+              0.3,
+              0.2
+            ],
+            "trend_ma": 50
+          },
+          "parameter_calculation_date": "2026-07-20T11:31:29",
+          "train_start": "2016-07-01",
+          "train_end": "2026-06-30",
+          "performance": {
+            "train_average_annual_return": 0.6591942162288018,
+            "train_max_drawdown": -0.352818035154965,
+            "last_3y_test_average_annual_return": 0.27675510800237185,
+            "last_3y_test_max_drawdown": -0.201873810006721,
+            "current_year_return": 0.2579133074708322,
+            "current_year_max_drawdown": -0.0770989205466901,
+            "current_drawdown_from_year_high": -0.0770989205466901,
+            "completed_test_quarters": 12
+          }
+        },
+        {
+          "market_scope": "BIST",
+          "system_id": "L01_R_BREAKER",
+          "system_name": "R-Breaker Long-Only",
+          "portfolio_size": 1,
+          "quarter_id": "2026-Q3",
+          "database_quarter_key": "BIST|2026-Q3",
+          "data_status": "READY",
+          "actionable": true,
+          "signal_date": "2026-07-17",
+          "execution_date": null,
+          "execution_timing": "USER_DECIDES",
+          "current_positions": [],
+          "sell_signal": [],
+          "hold_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "KRDMD",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
+          "rebalance_signal": [],
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "KRDMD",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "KRDMD",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
+          "parameters": {
+            "volume_confirm": false,
+            "volume_z_min": 0.5
+          },
+          "parameter_calculation_date": "2026-07-20T11:31:29",
+          "train_start": "2016-07-01",
+          "train_end": "2026-06-30",
+          "performance": {
+            "train_average_annual_return": 0.4203602627158703,
+            "train_max_drawdown": -0.6361785214977752,
+            "last_3y_test_average_annual_return": 0.3678929259541562,
+            "last_3y_test_max_drawdown": -0.3500725293789564,
+            "current_year_return": 0.012077203460976849,
+            "current_year_max_drawdown": -0.30681746880679506,
+            "current_drawdown_from_year_high": -0.2498735384045646,
+            "completed_test_quarters": 12
+          }
+        },
+        {
+          "market_scope": "BIST",
+          "system_id": "L25_IMITATIVE_RDPG_PROXY",
+          "system_name": "Imitative RDPG Proxy",
+          "portfolio_size": 1,
+          "quarter_id": "2026-Q3",
+          "database_quarter_key": "BIST|2026-Q3",
+          "data_status": "READY",
+          "actionable": true,
+          "signal_date": "2026-07-17",
+          "execution_date": null,
+          "execution_timing": "USER_DECIDES",
+          "current_positions": [],
+          "sell_signal": [],
+          "hold_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "AKSEN",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
+          "rebalance_signal": [],
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "AKSEN",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "AKSEN",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
+          "parameters": {
+            "momentum_window": 40,
+            "prob_threshold": 0.75,
+            "teacher_weight": 0.5
+          },
+          "parameter_calculation_date": "2026-07-20T11:31:29",
+          "train_start": "2016-07-01",
+          "train_end": "2026-06-30",
+          "performance": {
+            "train_average_annual_return": 1.135890945112187,
+            "train_max_drawdown": -0.7894905906768042,
+            "last_3y_test_average_annual_return": 0.8578820307833929,
+            "last_3y_test_max_drawdown": -0.3456590089966427,
+            "current_year_return": -0.03391640093506043,
+            "current_year_max_drawdown": -0.279120045523489,
+            "current_drawdown_from_year_high": -0.09519002850096703,
+            "completed_test_quarters": 12
+          }
+        }
+      ],
+      "warnings": []
+    },
+    "US": {
+      "schema_version": "2.1.0",
+      "report_id": "US-20260720T115617-183c435d",
+      "generated_at": "2026-07-20T11:55:58",
+      "market_scope": "US",
+      "market_name": "Yabancı ABD",
+      "data_status": "READY",
+      "signal_date": "2026-07-17",
+      "execution_date": null,
+      "execution_timing": "USER_DECIDES",
+      "active_quarter": "2026-Q3",
+      "database_quarter_key": "US|2026-Q3",
+      "data_source": "Yahoo Finance US direct USD -> Hisseler.db",
+      "database_file": "Hisseler.db",
+      "one_way_cost_pct": 0.0,
+      "fixed_excluded_symbols": [],
+      "active_universe": [
+        "AAPL",
+        "AMD",
+        "AMZN",
+        "AVGO",
+        "BA",
+        "BAC",
+        "C",
+        "CAT",
+        "COP",
+        "CSCO",
+        "CVX",
+        "DIS",
+        "GE",
+        "GOOGL",
+        "GS",
+        "HD",
+        "INTC",
+        "JNJ",
+        "JPM",
+        "KO",
+        "MA",
+        "MCD",
+        "META",
+        "MS",
+        "MSFT",
+        "MU",
+        "NFLX",
+        "NKE",
+        "NVDA",
+        "ORCL",
+        "PEP",
+        "PFE",
+        "QCOM",
+        "T",
+        "TSLA",
+        "V",
+        "VZ",
+        "WFC",
+        "WMT",
+        "XOM"
+      ],
+      "active_universe_details": [
+        {
+          "symbol": "AAPL",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "AMD",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "AMZN",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "AVGO",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "BA",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "BAC",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "C",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "CAT",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "COP",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "CSCO",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "CVX",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "DIS",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "GE",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "GOOGL",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "GS",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "HD",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "INTC",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "JNJ",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "JPM",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "KO",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "MA",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "MCD",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "META",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "MS",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "MSFT",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "MU",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "NFLX",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "NKE",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "NVDA",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "ORCL",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "PEP",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "PFE",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "QCOM",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "T",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "TSLA",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "V",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "VZ",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "WFC",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "WMT",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "XOM",
+          "market": "US",
+          "native_currency": "USD"
+        }
+      ],
+      "fixed_bist_symbols": [],
+      "fixed_us_symbols": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "TSLA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "QCOM",
+        "MU",
+        "ORCL",
+        "CSCO",
+        "NFLX",
+        "BAC",
+        "JPM",
+        "C",
+        "WFC",
+        "GS",
+        "MS",
+        "V",
+        "MA",
+        "XOM",
+        "CVX",
+        "COP",
+        "WMT",
+        "KO",
+        "PEP",
+        "MCD",
+        "DIS",
+        "NKE",
+        "HD",
+        "BA",
+        "CAT",
+        "GE",
+        "T",
+        "VZ",
+        "PFE",
+        "JNJ"
+      ],
+      "latest_symbol_coverage": 1.0,
+      "last_3y_completed_test_quarters": [
+        "2023-Q3",
+        "2023-Q4",
+        "2024-Q1",
+        "2024-Q2",
+        "2024-Q3",
+        "2024-Q4",
+        "2025-Q1",
+        "2025-Q2",
+        "2025-Q3",
+        "2025-Q4",
+        "2026-Q1",
+        "2026-Q2"
+      ],
+      "systems": [
+        {
+          "market_scope": "US",
+          "system_id": "L02_DUAL_THRUST",
+          "system_name": "Dual Thrust Long-Only",
+          "portfolio_size": 5,
+          "quarter_id": "2026-Q3",
+          "database_quarter_key": "US|2026-Q3",
+          "data_status": "READY",
+          "actionable": true,
+          "signal_date": "2026-07-17",
+          "execution_date": null,
+          "execution_timing": "USER_DECIDES",
+          "current_positions": [],
+          "sell_signal": [],
+          "hold_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "NFLX",
+              "market": "US",
+              "target_weight": 1.0
+            }
+          ],
+          "rebalance_signal": [],
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "NFLX",
+              "market": "US",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "NFLX",
+              "market": "US",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
+          "parameters": {
+            "k": 0.5,
+            "n": 10,
+            "volume_z_min": 0.5
+          },
+          "parameter_calculation_date": "2026-07-20T11:44:54",
+          "train_start": "2016-07-01",
+          "train_end": "2026-06-30",
+          "performance": {
+            "train_average_annual_return": 0.1698765223042506,
+            "train_max_drawdown": -0.2582618238921929,
+            "last_3y_test_average_annual_return": 0.12897968241307523,
+            "last_3y_test_max_drawdown": -0.16583423901915884,
+            "current_year_return": 0.20010455439937536,
+            "current_year_max_drawdown": -0.04619997218764116,
+            "current_drawdown_from_year_high": 0.0,
+            "completed_test_quarters": 12
+          }
+        },
+        {
+          "market_scope": "US",
+          "system_id": "R01_FAST_ROTATION_TARGET",
+          "system_name": "Fast Rotation Target",
+          "portfolio_size": 3,
+          "quarter_id": "2026-Q3",
+          "database_quarter_key": "US|2026-Q3",
+          "data_status": "READY",
+          "actionable": true,
+          "signal_date": "2026-07-17",
+          "execution_date": null,
+          "execution_timing": "USER_DECIDES",
+          "current_positions": [],
+          "sell_signal": [],
+          "hold_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "AAPL",
+              "market": "US",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "CVX",
+              "market": "US",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "PFE",
+              "market": "US",
+              "target_weight": 0.3333333333333333
+            }
+          ],
+          "rebalance_signal": [],
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "AAPL",
+              "market": "US",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "CVX",
+              "market": "US",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "PFE",
+              "market": "US",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "AAPL",
+              "market": "US",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "CVX",
+              "market": "US",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "PFE",
+              "market": "US",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "cash_signal": false,
+          "parameters": {
+            "breadth_min": 0.3,
+            "dispersion_min": 0.0,
+            "horizons": [
+              3,
+              5,
+              10
+            ],
+            "monthly_profit_lock_pct": 0.0,
+            "score_weights": [
+              0.5,
+              0.3,
+              0.2
+            ],
+            "trend_ma": 20
+          },
+          "parameter_calculation_date": "2026-07-20T11:44:54",
+          "train_start": "2016-07-01",
+          "train_end": "2026-06-30",
+          "performance": {
+            "train_average_annual_return": 0.34357447956919035,
+            "train_max_drawdown": -0.2808897507728242,
+            "last_3y_test_average_annual_return": 0.12596136474748035,
+            "last_3y_test_max_drawdown": -0.22136831705941373,
+            "current_year_return": 0.07551964013259083,
+            "current_year_max_drawdown": -0.2326063628713393,
+            "current_drawdown_from_year_high": -0.2326063628713393,
+            "completed_test_quarters": 12
+          }
+        },
+        {
+          "market_scope": "US",
+          "system_id": "L01_R_BREAKER",
+          "system_name": "R-Breaker Long-Only",
+          "portfolio_size": 1,
+          "quarter_id": "2026-Q3",
+          "database_quarter_key": "US|2026-Q3",
+          "data_status": "READY",
+          "actionable": true,
+          "signal_date": "2026-07-17",
+          "execution_date": null,
+          "execution_timing": "USER_DECIDES",
+          "current_positions": [],
+          "sell_signal": [],
+          "hold_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "COP",
+              "market": "US",
+              "target_weight": 1.0
+            }
+          ],
+          "rebalance_signal": [],
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "COP",
+              "market": "US",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "COP",
+              "market": "US",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
+          "parameters": {
+            "volume_confirm": false,
+            "volume_z_min": 0.0
+          },
+          "parameter_calculation_date": "2026-07-20T11:44:54",
+          "train_start": "2016-07-01",
+          "train_end": "2026-06-30",
+          "performance": {
+            "train_average_annual_return": 0.21096315853012101,
+            "train_max_drawdown": -0.3958715074379644,
+            "last_3y_test_average_annual_return": 0.3627561705011444,
+            "last_3y_test_max_drawdown": -0.34690057227072635,
+            "current_year_return": 1.1593594069235418,
+            "current_year_max_drawdown": -0.14446189866840697,
+            "current_drawdown_from_year_high": -0.03956665900612677,
+            "completed_test_quarters": 12
+          }
+        },
+        {
+          "market_scope": "US",
+          "system_id": "L25_IMITATIVE_RDPG_PROXY",
+          "system_name": "Imitative RDPG Proxy",
+          "portfolio_size": 1,
+          "quarter_id": "2026-Q3",
+          "database_quarter_key": "US|2026-Q3",
+          "data_status": "READY",
+          "actionable": true,
+          "signal_date": "2026-07-17",
+          "execution_date": null,
+          "execution_timing": "USER_DECIDES",
+          "current_positions": [],
+          "sell_signal": [],
+          "hold_signal": [],
+          "buy_signal": [],
+          "rebalance_signal": [],
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
+          "parameters": {
+            "momentum_window": 20,
+            "prob_threshold": 0.65,
+            "teacher_weight": 0.7
+          },
+          "parameter_calculation_date": "2026-07-20T11:44:54",
+          "train_start": "2016-07-01",
+          "train_end": "2026-06-30",
+          "performance": {
+            "train_average_annual_return": 0.4483330953271627,
+            "train_max_drawdown": -0.5143363444698164,
+            "last_3y_test_average_annual_return": 0.9436131163298936,
+            "last_3y_test_max_drawdown": -0.40065155887515536,
+            "current_year_return": 1.032650182135514,
+            "current_year_max_drawdown": -0.2590189660098752,
+            "current_drawdown_from_year_high": -0.21836803115403314,
+            "completed_test_quarters": 12
+          }
+        }
+      ],
+      "warnings": []
+    }
+  }
+}
