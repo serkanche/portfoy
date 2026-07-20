@@ -1,17 +1,17 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-20T12:58:11",
+  "generated_at": "2026-07-20T14:39:49",
   "database_file": "Hisseler.db",
   "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
   "reports": {
     "BIST": {
       "schema_version": "2.1.0",
-      "report_id": "BIST-20260720T125812-8dcbfa34",
-      "generated_at": "2026-07-20T12:58:11",
+      "report_id": "BIST-20260720T143949-ab73a183",
+      "generated_at": "2026-07-20T14:39:49",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY",
-      "signal_date": "2026-07-17",
+      "signal_date": "2026-07-20",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
       "active_quarter": "2026-Q3",
@@ -335,17 +335,35 @@
           "database_quarter_key": "BIST|2026-Q3",
           "data_status": "READY",
           "actionable": true,
-          "signal_date": "2026-07-17",
+          "signal_date": "2026-07-20",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "PETKM",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "PETKM",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "PETKM",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "k": 0.3,
             "n": 20,
@@ -374,7 +392,7 @@
           "database_quarter_key": "BIST|2026-Q3",
           "data_status": "READY",
           "actionable": true,
-          "signal_date": "2026-07-17",
+          "signal_date": "2026-07-20",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "current_positions": [],
@@ -424,15 +442,28 @@
           "database_quarter_key": "BIST|2026-Q3",
           "data_status": "READY",
           "actionable": true,
-          "signal_date": "2026-07-17",
+          "signal_date": "2026-07-20",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "current_positions": [],
-          "sell_signal": [],
+          "current_positions": [
+            {
+              "symbol": "KRDMD",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "sell_signal": [
+            {
+              "symbol": "KRDMD",
+              "market": "BIST",
+              "current_weight": 1.0,
+              "target_weight": 0.0
+            }
+          ],
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "KRDMD",
+              "symbol": "TUPRS",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -440,14 +471,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "KRDMD",
+              "symbol": "TUPRS",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "KRDMD",
+              "symbol": "TUPRS",
               "market": "BIST",
               "weight": 1.0
             }
@@ -465,9 +496,9 @@
             "train_max_drawdown": -0.6361785214977752,
             "last_3y_test_average_annual_return": 0.3678929259541562,
             "last_3y_test_max_drawdown": -0.3500725293789564,
-            "current_year_return": 0.012077203460976849,
+            "current_year_return": 0.04963212581283338,
             "current_year_max_drawdown": -0.30681746880679506,
-            "current_drawdown_from_year_high": -0.2498735384045646,
+            "current_drawdown_from_year_high": -0.22203876362359543,
             "completed_test_quarters": 12
           }
         },
@@ -480,15 +511,28 @@
           "database_quarter_key": "BIST|2026-Q3",
           "data_status": "READY",
           "actionable": true,
-          "signal_date": "2026-07-17",
+          "signal_date": "2026-07-20",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "current_positions": [],
-          "sell_signal": [],
+          "current_positions": [
+            {
+              "symbol": "AKSEN",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "sell_signal": [
+            {
+              "symbol": "AKSEN",
+              "market": "BIST",
+              "current_weight": 1.0,
+              "target_weight": 0.0
+            }
+          ],
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "AKSEN",
+              "symbol": "TUPRS",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -496,14 +540,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "AKSEN",
+              "symbol": "TUPRS",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "AKSEN",
+              "symbol": "TUPRS",
               "market": "BIST",
               "weight": 1.0
             }
@@ -522,9 +566,9 @@
             "train_max_drawdown": -0.7894905906768042,
             "last_3y_test_average_annual_return": 0.8578820307833929,
             "last_3y_test_max_drawdown": -0.3456590089966427,
-            "current_year_return": -0.03391640093506043,
+            "current_year_return": -0.00915930106998819,
             "current_year_max_drawdown": -0.279120045523489,
-            "current_drawdown_from_year_high": -0.09519002850096703,
+            "current_drawdown_from_year_high": -0.07200314193649593,
             "completed_test_quarters": 12
           }
         }
@@ -533,8 +577,8 @@
     },
     "US": {
       "schema_version": "2.1.0",
-      "report_id": "US-20260720T125815-90eb7272",
-      "generated_at": "2026-07-20T12:58:11",
+      "report_id": "US-20260720T144009-ed75b9bf",
+      "generated_at": "2026-07-20T14:39:49",
       "market_scope": "US",
       "market_name": "Yabancı ABD",
       "data_status": "READY",
