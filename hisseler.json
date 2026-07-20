@@ -1,13 +1,13 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-20T11:55:58",
+  "generated_at": "2026-07-20T12:58:11",
   "database_file": "Hisseler.db",
   "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
   "reports": {
     "BIST": {
       "schema_version": "2.1.0",
-      "report_id": "BIST-20260720T115558-d0e29770",
-      "generated_at": "2026-07-20T11:55:58",
+      "report_id": "BIST-20260720T125812-8dcbfa34",
+      "generated_at": "2026-07-20T12:58:11",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY",
@@ -533,8 +533,8 @@
     },
     "US": {
       "schema_version": "2.1.0",
-      "report_id": "US-20260720T115617-183c435d",
-      "generated_at": "2026-07-20T11:55:58",
+      "report_id": "US-20260720T125815-90eb7272",
+      "generated_at": "2026-07-20T12:58:11",
       "market_scope": "US",
       "market_name": "Yabancı ABD",
       "data_status": "READY",
