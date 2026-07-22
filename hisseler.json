@@ -1,19 +1,21 @@
 {
-  "schema_version": "2.1.0",
-  "generated_at": "2026-07-21T17:23:39",
+  "schema_version": "2.2.0",
+  "generated_at": "2026-07-22T10:38:00",
   "database_file": "Hisseler.db",
   "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
   "reports": {
     "BIST": {
-      "schema_version": "2.1.0",
-      "report_id": "BIST-20260721T172339-a9f62ed1",
-      "generated_at": "2026-07-21T17:23:39",
+      "schema_version": "2.2.0",
+      "report_id": "BIST-20260722T103800-394aa740",
+      "generated_at": "2026-07-22T10:38:00",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
-      "data_status": "READY",
-      "signal_date": "2026-07-21",
+      "data_status": "READY_INTRADAY",
+      "signal_date": "2026-07-22",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
+      "signal_bar_state": "INTRADAY_PARTIAL",
+      "incomplete_current_day_enabled": true,
       "active_quarter": "2026-Q3",
       "database_quarter_key": "BIST|2026-Q3",
       "data_source": "Yahoo Finance BIST TRY -> adjusted USD -> Hisseler.db",
@@ -333,72 +335,33 @@
           "portfolio_size": 5,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "BIST|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-07-21",
+          "signal_date": "2026-07-22",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [
             {
-              "symbol": "ALARK",
+              "symbol": "AEFES",
               "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "BIMAS",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "PETKM",
-              "market": "BIST",
-              "weight": 0.3333333333333333
+              "weight": 1.0
             }
           ],
           "sell_signal": [
             {
-              "symbol": "ALARK",
+              "symbol": "AEFES",
               "market": "BIST",
-              "current_weight": 0.3333333333333333,
-              "target_weight": 0.0
-            },
-            {
-              "symbol": "BIMAS",
-              "market": "BIST",
-              "current_weight": 0.3333333333333333,
-              "target_weight": 0.0
-            },
-            {
-              "symbol": "PETKM",
-              "market": "BIST",
-              "current_weight": 0.3333333333333333,
+              "current_weight": 1.0,
               "target_weight": 0.0
             }
           ],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "AEFES",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "AEFES",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "AEFES",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "k": 0.3,
             "n": 20,
@@ -412,9 +375,9 @@
             "train_max_drawdown": -0.4295961645894122,
             "last_3y_test_average_annual_return": 0.3275575034218672,
             "last_3y_test_max_drawdown": -0.35801176920631106,
-            "current_year_return": 0.225419301735988,
-            "current_year_max_drawdown": -0.16046692262453588,
-            "current_drawdown_from_year_high": -0.16046692262453588,
+            "current_year_return": 0.23514678228394437,
+            "current_year_max_drawdown": -0.1615359810485827,
+            "current_drawdown_from_year_high": -0.15380263908667524,
             "completed_test_quarters": 12
           }
         },
@@ -425,11 +388,12 @@
           "portfolio_size": 3,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "BIST|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-07-21",
+          "signal_date": "2026-07-22",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
@@ -475,50 +439,33 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "BIST|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-07-21",
+          "signal_date": "2026-07-22",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [
             {
-              "symbol": "PETKM",
+              "symbol": "OYAKC",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "sell_signal": [
             {
-              "symbol": "PETKM",
+              "symbol": "OYAKC",
               "market": "BIST",
               "current_weight": 1.0,
               "target_weight": 0.0
             }
           ],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "OYAKC",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "OYAKC",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "OYAKC",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "volume_confirm": false,
             "volume_z_min": 0.5
@@ -531,9 +478,9 @@
             "train_max_drawdown": -0.6361785214977752,
             "last_3y_test_average_annual_return": 0.3678929259541562,
             "last_3y_test_max_drawdown": -0.3500725293789564,
-            "current_year_return": 0.00044383100931399966,
+            "current_year_return": 0.00018097565113062153,
             "current_year_max_drawdown": -0.30681746880679506,
-            "current_drawdown_from_year_high": -0.25849590484434404,
+            "current_drawdown_from_year_high": -0.25869072670088933,
             "completed_test_quarters": 12
           }
         },
@@ -544,50 +491,33 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "BIST|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-07-21",
+          "signal_date": "2026-07-22",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [
             {
-              "symbol": "TUPRS",
+              "symbol": "AEFES",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "sell_signal": [
             {
-              "symbol": "TUPRS",
+              "symbol": "AEFES",
               "market": "BIST",
               "current_weight": 1.0,
               "target_weight": 0.0
             }
           ],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "AEFES",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "AEFES",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "AEFES",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "momentum_window": 40,
             "prob_threshold": 0.75,
@@ -601,25 +531,29 @@
             "train_max_drawdown": -0.7894905906768042,
             "last_3y_test_average_annual_return": 0.8578820307833929,
             "last_3y_test_max_drawdown": -0.3456590089966427,
-            "current_year_return": -0.02564854068432998,
+            "current_year_return": -0.021880029780590227,
             "current_year_max_drawdown": -0.279120045523489,
-            "current_drawdown_from_year_high": -0.08744655536358847,
+            "current_drawdown_from_year_high": -0.08391706138738719,
             "completed_test_quarters": 12
           }
         }
       ],
-      "warnings": []
+      "warnings": [
+        "BIST piyasasi acikken kapanmamis gunluk mum degerlendiriliyor; Open/High/Low/Close/Volume seans ilerledikce degisebilir ve ayni gun yeniden calistirmada sinyal degisebilir."
+      ]
     },
     "US": {
-      "schema_version": "2.1.0",
-      "report_id": "US-20260721T172406-c5a52532",
-      "generated_at": "2026-07-21T17:23:39",
+      "schema_version": "2.2.0",
+      "report_id": "US-20260722T103823-2ceaf58e",
+      "generated_at": "2026-07-22T10:38:00",
       "market_scope": "US",
       "market_name": "Yabancı ABD",
       "data_status": "READY",
       "signal_date": "2026-07-21",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
+      "signal_bar_state": "COMPLETED",
+      "incomplete_current_day_enabled": true,
       "active_quarter": "2026-Q3",
       "database_quarter_key": "US|2026-Q3",
       "data_source": "Yahoo Finance US direct USD -> Hisseler.db",
@@ -941,6 +875,7 @@
           "signal_date": "2026-07-21",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
@@ -980,6 +915,7 @@
           "signal_date": "2026-07-21",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [
             {
               "symbol": "COP",
@@ -1079,9 +1015,9 @@
             "train_max_drawdown": -0.2808897507728242,
             "last_3y_test_average_annual_return": 0.12596136474748035,
             "last_3y_test_max_drawdown": -0.22136831705941373,
-            "current_year_return": 0.075861113803809,
+            "current_year_return": 0.08419516456464815,
             "current_year_max_drawdown": -0.23796922392276754,
-            "current_drawdown_from_year_high": -0.2323627181132505,
+            "current_drawdown_from_year_high": -0.22641629250954254,
             "completed_test_quarters": 12
           }
         },
@@ -1097,6 +1033,7 @@
           "signal_date": "2026-07-21",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [
             {
               "symbol": "COP",
@@ -1115,7 +1052,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "JNJ",
+              "symbol": "MU",
               "market": "US",
               "target_weight": 1.0
             }
@@ -1123,14 +1060,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "JNJ",
+              "symbol": "MU",
               "market": "US",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "JNJ",
+              "symbol": "MU",
               "market": "US",
               "weight": 1.0
             }
@@ -1148,9 +1085,9 @@
             "train_max_drawdown": -0.3958715074379644,
             "last_3y_test_average_annual_return": 0.3627561705011444,
             "last_3y_test_max_drawdown": -0.34690057227072635,
-            "current_year_return": 1.193618140452601,
+            "current_year_return": 1.2118798041892829,
             "current_year_max_drawdown": -0.14446189866840697,
-            "current_drawdown_from_year_high": -0.024329163202493675,
+            "current_drawdown_from_year_high": -0.016206795680675623,
             "completed_test_quarters": 12
           }
         },
@@ -1166,14 +1103,33 @@
           "signal_date": "2026-07-21",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "AMD",
+              "market": "US",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "AMD",
+              "market": "US",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "AMD",
+              "market": "US",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.65,
