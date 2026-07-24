@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-07-24T10:36:07",
+  "generated_at": "2026-07-24T13:29:10",
   "database_file": "Hisseler.db",
   "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "BIST-20260724T103607-c4e65b2b",
-      "generated_at": "2026-07-24T10:36:07",
+      "report_id": "BIST-20260724T132910-fe480628",
+      "generated_at": "2026-07-24T13:29:10",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -375,9 +375,9 @@
             "train_max_drawdown": -0.4295961645894122,
             "last_3y_test_average_annual_return": 0.3275575034218672,
             "last_3y_test_max_drawdown": -0.35801176920631106,
-            "current_year_return": 0.20334702239611646,
-            "current_year_max_drawdown": -0.17558861082762045,
-            "current_drawdown_from_year_high": -0.17558861082762045,
+            "current_year_return": 0.20906918787308926,
+            "current_year_max_drawdown": -0.17166836313335854,
+            "current_drawdown_from_year_high": -0.17166836313335854,
             "completed_test_quarters": 12
           }
         },
@@ -463,7 +463,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "ASELS",
+              "symbol": "GUBRF",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -471,14 +471,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "ASELS",
+              "symbol": "GUBRF",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "ASELS",
+              "symbol": "GUBRF",
               "market": "BIST",
               "weight": 1.0
             }
@@ -496,9 +496,9 @@
             "train_max_drawdown": -0.6361785214977752,
             "last_3y_test_average_annual_return": 0.3678929259541562,
             "last_3y_test_max_drawdown": -0.3500725293789564,
-            "current_year_return": 0.07244542170601465,
+            "current_year_return": 0.05311048861430101,
             "current_year_max_drawdown": -0.30681746880679506,
-            "current_drawdown_from_year_high": -0.20513011587699925,
+            "current_drawdown_from_year_high": -0.21946068759195725,
             "completed_test_quarters": 12
           }
         },
@@ -522,20 +522,32 @@
               "weight": 1.0
             }
           ],
-          "sell_signal": [
+          "sell_signal": [],
+          "hold_signal": [
             {
               "symbol": "TRMET",
               "market": "BIST",
               "current_weight": 1.0,
-              "target_weight": 0.0
+              "target_weight": 1.0
             }
           ],
-          "hold_signal": [],
           "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "TRMET",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "TRMET",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "momentum_window": 40,
             "prob_threshold": 0.75,
@@ -549,9 +561,9 @@
             "train_max_drawdown": -0.7894905906768042,
             "last_3y_test_average_annual_return": 0.8578820307833929,
             "last_3y_test_max_drawdown": -0.3456590089966427,
-            "current_year_return": -0.0949195299647626,
+            "current_year_return": -0.11715649219258017,
             "current_year_max_drawdown": -0.279120045523489,
-            "current_drawdown_from_year_high": -0.15232404826089307,
+            "current_drawdown_from_year_high": -0.17315063633158467,
             "completed_test_quarters": 12
           }
         }
@@ -562,8 +574,8 @@
     },
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "US-20260724T103629-c84ff0da",
-      "generated_at": "2026-07-24T10:36:07",
+      "report_id": "US-20260724T132935-2b6746ba",
+      "generated_at": "2026-07-24T13:29:10",
       "market_scope": "US",
       "market_name": "Yabancı ABD",
       "data_status": "READY",
