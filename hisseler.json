@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-07-27T13:26:37",
+  "generated_at": "2026-07-27T17:05:08",
   "database_file": "Hisseler.db",
   "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "BIST-20260727T132641-f7cc2c8f",
-      "generated_at": "2026-07-27T13:26:37",
+      "report_id": "BIST-20260727T170508-caae43e6",
+      "generated_at": "2026-07-27T17:05:08",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -362,9 +362,9 @@
             "train_max_drawdown": -0.4295961645894122,
             "last_3y_test_average_annual_return": 0.3275575034218672,
             "last_3y_test_max_drawdown": -0.35801176920631106,
-            "current_year_return": 0.1783789462816705,
-            "current_year_max_drawdown": -0.19269420541619153,
-            "current_drawdown_from_year_high": -0.19269420541619153,
+            "current_year_return": 0.14407683913789526,
+            "current_year_max_drawdown": -0.21619453181881976,
+            "current_drawdown_from_year_high": -0.21619453181881976,
             "completed_test_quarters": 12
           }
         },
@@ -448,29 +448,11 @@
             }
           ],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "THYAO",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "THYAO",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "THYAO",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "volume_confirm": false,
             "volume_z_min": 0.5
@@ -483,9 +465,9 @@
             "train_max_drawdown": -0.6361785214977752,
             "last_3y_test_average_annual_return": 0.3678929259541562,
             "last_3y_test_max_drawdown": -0.3500725293789564,
-            "current_year_return": 0.03973904210305457,
+            "current_year_return": 0.009472683274830862,
             "current_year_max_drawdown": -0.30681746880679506,
-            "current_drawdown_from_year_high": -0.22937127131382518,
+            "current_drawdown_from_year_high": -0.2518039440146371,
             "completed_test_quarters": 12
           }
         },
@@ -536,9 +518,9 @@
             "train_max_drawdown": -0.7894905906768042,
             "last_3y_test_average_annual_return": 0.8578820307833929,
             "last_3y_test_max_drawdown": -0.3456590089966427,
-            "current_year_return": -0.10483052951230909,
+            "current_year_return": -0.12955578976908488,
             "current_year_max_drawdown": -0.279120045523489,
-            "current_drawdown_from_year_high": -0.16160644496737064,
+            "current_drawdown_from_year_high": -0.18476351134329583,
             "completed_test_quarters": 12
           }
         }
@@ -549,15 +531,15 @@
     },
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "US-20260727T132703-052d888b",
-      "generated_at": "2026-07-27T13:26:37",
+      "report_id": "US-20260727T170531-efcc3d9d",
+      "generated_at": "2026-07-27T17:05:08",
       "market_scope": "US",
       "market_name": "Yabancı ABD",
-      "data_status": "READY",
-      "signal_date": "2026-07-24",
+      "data_status": "READY_INTRADAY",
+      "signal_date": "2026-07-27",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
-      "signal_bar_state": "COMPLETED",
+      "signal_bar_state": "INTRADAY_PARTIAL",
       "incomplete_current_day_enabled": true,
       "active_quarter": "2026-Q3",
       "database_quarter_key": "US|2026-Q3",
@@ -875,12 +857,12 @@
           "portfolio_size": 5,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "US|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-07-24",
+          "signal_date": "2026-07-27",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "COMPLETED",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
@@ -915,12 +897,12 @@
           "portfolio_size": 3,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "US|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-07-24",
+          "signal_date": "2026-07-27",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "COMPLETED",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [
             {
               "symbol": "COP",
@@ -938,32 +920,44 @@
               "weight": 0.3333333333333333
             }
           ],
-          "sell_signal": [],
-          "hold_signal": [
+          "sell_signal": [
             {
               "symbol": "COP",
               "market": "US",
               "current_weight": 0.3333333333333333,
-              "target_weight": 0.3333333333333333
-            },
-            {
-              "symbol": "T",
-              "market": "US",
-              "current_weight": 0.3333333333333333,
-              "target_weight": 0.3333333333333333
+              "target_weight": 0.0
             },
             {
               "symbol": "XOM",
+              "market": "US",
+              "current_weight": 0.3333333333333333,
+              "target_weight": 0.0
+            }
+          ],
+          "hold_signal": [
+            {
+              "symbol": "T",
               "market": "US",
               "current_weight": 0.3333333333333333,
               "target_weight": 0.3333333333333333
             }
           ],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "GE",
+              "market": "US",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VZ",
+              "market": "US",
+              "target_weight": 0.3333333333333333
+            }
+          ],
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "COP",
+              "symbol": "GE",
               "market": "US",
               "weight": 0.3333333333333333
             },
@@ -973,14 +967,14 @@
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "XOM",
+              "symbol": "VZ",
               "market": "US",
               "weight": 0.3333333333333333
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "COP",
+              "symbol": "GE",
               "market": "US",
               "weight": 0.3333333333333333
             },
@@ -990,7 +984,7 @@
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "XOM",
+              "symbol": "VZ",
               "market": "US",
               "weight": 0.3333333333333333
             }
@@ -1020,9 +1014,9 @@
             "train_max_drawdown": -0.2808897507728242,
             "last_3y_test_average_annual_return": 0.12596136474748035,
             "last_3y_test_max_drawdown": -0.22136831705941373,
-            "current_year_return": 0.10661503583402898,
+            "current_year_return": 0.11659683403663434,
             "current_year_max_drawdown": -0.23796922392276754,
-            "current_drawdown_from_year_high": -0.2104194981086095,
+            "current_drawdown_from_year_high": -0.2032973888119003,
             "completed_test_quarters": 12
           }
         },
@@ -1033,22 +1027,22 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "US|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-07-24",
+          "signal_date": "2026-07-27",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "COMPLETED",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [
             {
-              "symbol": "GE",
+              "symbol": "AAPL",
               "market": "US",
               "weight": 1.0
             }
           ],
           "sell_signal": [
             {
-              "symbol": "GE",
+              "symbol": "AAPL",
               "market": "US",
               "current_weight": 1.0,
               "target_weight": 0.0
@@ -1057,7 +1051,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "AAPL",
+              "symbol": "XOM",
               "market": "US",
               "target_weight": 1.0
             }
@@ -1065,14 +1059,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "AAPL",
+              "symbol": "XOM",
               "market": "US",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "AAPL",
+              "symbol": "XOM",
               "market": "US",
               "weight": 1.0
             }
@@ -1090,9 +1084,9 @@
             "train_max_drawdown": -0.3958715074379644,
             "last_3y_test_average_annual_return": 0.3627561705011444,
             "last_3y_test_max_drawdown": -0.34690057227072635,
-            "current_year_return": 1.2126869565936271,
+            "current_year_return": 1.2243225153064823,
             "current_year_max_drawdown": -0.14446189866840697,
-            "current_drawdown_from_year_high": -0.015847792877385913,
+            "current_drawdown_from_year_high": -0.010672564291960507,
             "completed_test_quarters": 12
           }
         },
@@ -1103,27 +1097,14 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "US|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-07-24",
+          "signal_date": "2026-07-27",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "COMPLETED",
-          "current_positions": [
-            {
-              "symbol": "XOM",
-              "market": "US",
-              "weight": 1.0
-            }
-          ],
-          "sell_signal": [
-            {
-              "symbol": "XOM",
-              "market": "US",
-              "current_weight": 1.0,
-              "target_weight": 0.0
-            }
-          ],
+          "signal_bar_state": "INTRADAY_PARTIAL",
+          "current_positions": [],
+          "sell_signal": [],
           "hold_signal": [],
           "buy_signal": [],
           "rebalance_signal": [],
@@ -1143,14 +1124,16 @@
             "train_max_drawdown": -0.5143363444698164,
             "last_3y_test_average_annual_return": 0.9436131163298936,
             "last_3y_test_max_drawdown": -0.40065155887515536,
-            "current_year_return": 1.0597002140090126,
+            "current_year_return": 1.0856433134325423,
             "current_year_max_drawdown": -0.2590189660098752,
-            "current_drawdown_from_year_high": -0.20796625624143317,
+            "current_drawdown_from_year_high": -0.1979901393185124,
             "completed_test_quarters": 12
           }
         }
       ],
-      "warnings": []
+      "warnings": [
+        "US piyasasi acikken kapanmamis gunluk mum degerlendiriliyor; Open/High/Low/Close/Volume seans ilerledikce degisebilir ve ayni gun yeniden calistirmada sinyal degisebilir."
+      ]
     }
   }
 }
