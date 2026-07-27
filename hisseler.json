@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-07-27T10:36:31",
+  "generated_at": "2026-07-27T13:26:37",
   "database_file": "Hisseler.db",
   "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "BIST-20260727T103631-27a56ecf",
-      "generated_at": "2026-07-27T10:36:31",
+      "report_id": "BIST-20260727T132641-f7cc2c8f",
+      "generated_at": "2026-07-27T13:26:37",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -362,9 +362,9 @@
             "train_max_drawdown": -0.4295961645894122,
             "last_3y_test_average_annual_return": 0.3275575034218672,
             "last_3y_test_max_drawdown": -0.35801176920631106,
-            "current_year_return": 0.18581127100546957,
-            "current_year_max_drawdown": -0.18760232997520132,
-            "current_drawdown_from_year_high": -0.18760232997520132,
+            "current_year_return": 0.1783789462816705,
+            "current_year_max_drawdown": -0.19269420541619153,
+            "current_drawdown_from_year_high": -0.19269420541619153,
             "completed_test_quarters": 12
           }
         },
@@ -483,9 +483,9 @@
             "train_max_drawdown": -0.6361785214977752,
             "last_3y_test_average_annual_return": 0.3678929259541562,
             "last_3y_test_max_drawdown": -0.3500725293789564,
-            "current_year_return": 0.046296930983627416,
+            "current_year_return": 0.03973904210305457,
             "current_year_max_drawdown": -0.30681746880679506,
-            "current_drawdown_from_year_high": -0.22451072711354292,
+            "current_drawdown_from_year_high": -0.22937127131382518,
             "completed_test_quarters": 12
           }
         },
@@ -536,9 +536,9 @@
             "train_max_drawdown": -0.7894905906768042,
             "last_3y_test_average_annual_return": 0.8578820307833929,
             "last_3y_test_max_drawdown": -0.3456590089966427,
-            "current_year_return": -0.11115193351727148,
+            "current_year_return": -0.10483052951230909,
             "current_year_max_drawdown": -0.279120045523489,
-            "current_drawdown_from_year_high": -0.16752691539363596,
+            "current_drawdown_from_year_high": -0.16160644496737064,
             "completed_test_quarters": 12
           }
         }
@@ -549,8 +549,8 @@
     },
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "US-20260727T103654-601a5e37",
-      "generated_at": "2026-07-27T10:36:31",
+      "report_id": "US-20260727T132703-052d888b",
+      "generated_at": "2026-07-27T13:26:37",
       "market_scope": "US",
       "market_name": "Yabancı ABD",
       "data_status": "READY",
