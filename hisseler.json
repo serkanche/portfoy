@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-07-28T18:12:05",
+  "generated_at": "2026-07-28T18:44:08",
   "database_file": "Hisseler.db",
   "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "BIST-20260728T181205-dd5c098c",
-      "generated_at": "2026-07-28T18:12:05",
+      "report_id": "BIST-20260728T184408-4419897c",
+      "generated_at": "2026-07-28T18:44:08",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -574,8 +574,8 @@
     },
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "US-20260728T181219-94647b50",
-      "generated_at": "2026-07-28T18:12:05",
+      "report_id": "US-20260728T184422-a7df5fcf",
+      "generated_at": "2026-07-28T18:44:08",
       "market_scope": "US",
       "market_name": "Yabancı ABD",
       "data_status": "READY_INTRADAY",
@@ -1052,9 +1052,9 @@
             "train_max_drawdown": -0.2808897507728242,
             "last_3y_test_average_annual_return": 0.12596136474748035,
             "last_3y_test_max_drawdown": -0.22136831705941373,
-            "current_year_return": 0.1450854052162016,
+            "current_year_return": 0.14217256745631945,
             "current_year_max_drawdown": -0.23796922393165432,
-            "current_drawdown_from_year_high": -0.18297051848957713,
+            "current_drawdown_from_year_high": -0.18504885632694668,
             "completed_test_quarters": 12
           }
         },
@@ -1122,7 +1122,7 @@
             "train_max_drawdown": -0.3958715074379644,
             "last_3y_test_average_annual_return": 0.3627561705011444,
             "last_3y_test_max_drawdown": -0.34690057227072635,
-            "current_year_return": 1.2906184232100792,
+            "current_year_return": 1.2900814748033942,
             "current_year_max_drawdown": -0.14446189866840697,
             "current_drawdown_from_year_high": 0.0,
             "completed_test_quarters": 12
@@ -1187,9 +1187,9 @@
             "train_max_drawdown": -0.5143363444698164,
             "last_3y_test_average_annual_return": 0.9436131163298936,
             "last_3y_test_max_drawdown": -0.40065155887515536,
-            "current_year_return": 1.217929341735592,
+            "current_year_return": 1.2065464845671636,
             "current_year_max_drawdown": -0.2590189660098752,
-            "current_drawdown_from_year_high": -0.14712108685583314,
+            "current_drawdown_from_year_high": -0.1514982320910765,
             "completed_test_quarters": 12
           }
         }
