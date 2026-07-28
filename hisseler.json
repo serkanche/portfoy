@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-07-28T10:35:42",
+  "generated_at": "2026-07-28T13:26:19",
   "database_file": "Hisseler.db",
   "separation_rule": "BIST_AND_US_ARE_INDEPENDENT_MODEL_UNIVERSES",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "BIST-20260728T103542-82b79c40",
-      "generated_at": "2026-07-28T10:35:42",
+      "report_id": "BIST-20260728T132619-3f2ea0ce",
+      "generated_at": "2026-07-28T13:26:19",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -362,9 +362,9 @@
             "train_max_drawdown": -0.4295961645894122,
             "last_3y_test_average_annual_return": 0.3275575034218672,
             "last_3y_test_max_drawdown": -0.35801176920631106,
-            "current_year_return": 0.1294426680658325,
-            "current_year_max_drawdown": -0.22622038228287167,
-            "current_drawdown_from_year_high": -0.22622038228287167,
+            "current_year_return": 0.13614563901719134,
+            "current_year_max_drawdown": -0.2216281861077496,
+            "current_drawdown_from_year_high": -0.2216281861077496,
             "completed_test_quarters": 12
           }
         },
@@ -435,29 +435,11 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "ISCTR",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "ISCTR",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "ISCTR",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "volume_confirm": false,
             "volume_z_min": 0.5
@@ -470,9 +452,9 @@
             "train_max_drawdown": -0.6361785214977752,
             "last_3y_test_average_annual_return": 0.3678929259541562,
             "last_3y_test_max_drawdown": -0.3500725293789564,
-            "current_year_return": -0.003439732599919254,
+            "current_year_return": 0.0024746132208388616,
             "current_year_max_drawdown": -0.30681746880679506,
-            "current_drawdown_from_year_high": -0.2613743056408572,
+            "current_drawdown_from_year_high": -0.2569907395571577,
             "completed_test_quarters": 12
           }
         },
@@ -510,9 +492,9 @@
             "train_max_drawdown": -0.7894905906768042,
             "last_3y_test_average_annual_return": 0.8578820307833929,
             "last_3y_test_max_drawdown": -0.3456590089966427,
-            "current_year_return": -0.13610662777991955,
+            "current_year_return": -0.13481339402125636,
             "current_year_max_drawdown": -0.279120045523489,
-            "current_drawdown_from_year_high": -0.19089886397697586,
+            "current_drawdown_from_year_high": -0.189687653268658,
             "completed_test_quarters": 12
           }
         }
@@ -523,8 +505,8 @@
     },
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "US-20260728T103607-a94b4c0f",
-      "generated_at": "2026-07-28T10:35:42",
+      "report_id": "US-20260728T132640-9e663b37",
+      "generated_at": "2026-07-28T13:26:19",
       "market_scope": "US",
       "market_name": "Yabancı ABD",
       "data_status": "READY",
