@@ -1,6 +1,6 @@
 {
   "version": "PFY_V8",
-  "generated_at": "2026-08-12 19:42:17",
+  "generated_at": "2026-08-12 20:35:27",
   "defaults": {
     "market": "LOCAL",
     "period": "BIWEEKLY"
@@ -8156,7 +8156,7 @@
         "Next_M_Path": "-9.8% \u2192 +20.2%",
         "Next_M_Prob": "DU-D %67",
         "Prev_M_Result": "2026-07 | UD | Getiri +10.7% | MaxUp +10.7% | MaxDown 0.0% | Veri 2026-07-01 \u2192 2026-07-16",
-        "WMA200": "+21.7%, DOWN",
+        "WMA200": "+21.6%, DOWN",
         "Last_Close_TL": 81.8,
         "Note": "Q y\u00fckseli\u015f aya\u011f\u0131 %42 olu\u015fmu\u015f; Q d\u00fc\u015f\u00fc\u015f RR 0.4; Q UD geri verme b\u00fcy\u00fck \u00f6l\u00e7\u00fcde olu\u015fmu\u015f; M d\u00fc\u015f\u00fc\u015f aya\u011f\u0131 %0 olu\u015fmu\u015f; M RR 2.2",
         "Daily_Change_Pct": 3.09,
@@ -9505,7 +9505,7 @@
         "Prev_Q_Result": "2026 Q2 | DU | Getiri -11.1% | MaxUp +15.1% | MaxDown -11.6% | Veri 2026-04-01 \u2192 2026-06-30",
         "M_Path": "+4.4% \u2192 -11.4%",
         "M_Prob": "UD-U %50",
-        "M_Now": "Now +7.1%, L +0.0%, H +7.7%, UD",
+        "M_Now": "Now +7.0%, L +0.0%, H +7.7%, UD",
         "Next_M_Path": "+5.2% \u2192 -7.6%",
         "Next_M_Prob": "UD-U %50",
         "Prev_M_Result": "2026-07 | UD | Getiri +2.6% | MaxUp +6.3% | MaxDown -4.2% | Veri 2026-07-01 \u2192 2026-07-16",
