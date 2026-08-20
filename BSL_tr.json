@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-08-20T10:30:37",
+  "generated_at": "2026-08-20T11:47:11",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260820T103037-ddaf93f9",
-      "generated_at": "2026-08-20T10:30:37",
+      "report_id": "TR-BIST-20260820T114711-d1d4b3d9",
+      "generated_at": "2026-08-20T11:47:11",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -544,17 +544,35 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "GSRAY",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "GSRAY",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "GSRAY",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-08-20T10:32:37",
+          "parameter_calculation_date": "2026-08-20T11:49:08",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +580,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": 0.02808291527877471,
+            "current_year_return": 0.015398227232110262,
             "current_year_max_drawdown": -0.21054581612022738,
-            "current_drawdown_from_year_high": -0.17956507219001916,
+            "current_drawdown_from_year_high": -0.1896877587624688,
             "completed_test_quarters": 12
           }
         },
@@ -586,12 +604,12 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "ASELS",
+              "symbol": "BRSAN",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
             {
-              "symbol": "GUBRF",
+              "symbol": "GSRAY",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
@@ -604,12 +622,12 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "ASELS",
+              "symbol": "BRSAN",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "GUBRF",
+              "symbol": "GSRAY",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -621,12 +639,12 @@
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "ASELS",
+              "symbol": "BRSAN",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "GUBRF",
+              "symbol": "GSRAY",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -653,7 +671,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-08-20T10:32:37",
+          "parameter_calculation_date": "2026-08-20T11:49:08",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -661,9 +679,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6329070808192221,
+            "current_year_return": 0.607967807623609,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.05342292793015757,
+            "current_drawdown_from_year_high": -0.06787993193139563,
             "completed_test_quarters": 12
           }
         },
@@ -710,7 +728,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-08-20T10:32:37",
+          "parameter_calculation_date": "2026-08-20T11:49:08",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -718,9 +736,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.11848041370865503,
+            "current_year_return": 0.11196384350166588,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.14988314070299058,
+            "current_drawdown_from_year_high": -0.15483615206542034,
             "completed_test_quarters": 12
           }
         },
@@ -740,17 +758,35 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "GSRAY",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "GSRAY",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "GSRAY",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-08-20T10:32:37",
+          "parameter_calculation_date": "2026-08-20T11:49:08",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -758,9 +794,9 @@
             "train_max_drawdown": -0.870679685893138,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.4174601270415867,
+            "current_year_return": 1.403375348759035,
             "current_year_max_drawdown": -0.2932209586245661,
-            "current_drawdown_from_year_high": -0.21245031662633063,
+            "current_drawdown_from_year_high": -0.2170387946544612,
             "completed_test_quarters": 12
           }
         }
