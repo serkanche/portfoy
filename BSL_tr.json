@@ -1,17 +1,17 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-08-20T18:22:06",
+  "generated_at": "2026-08-21T10:31:41",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260820T182206-a6c817c9",
-      "generated_at": "2026-08-20T18:22:06",
+      "report_id": "TR-BIST-20260821T103141-94e58473",
+      "generated_at": "2026-08-21T10:31:41",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
-      "signal_date": "2026-08-20",
+      "signal_date": "2026-08-21",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
       "signal_bar_state": "INTRADAY_PARTIAL",
@@ -537,42 +537,24 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-08-20",
+          "signal_date": "2026-08-21",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-08-20T18:24:02",
+          "parameter_calculation_date": "2026-08-21T10:33:42",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -580,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": 0.004418545406399188,
-            "current_year_max_drawdown": -0.21054581612022738,
-            "current_drawdown_from_year_high": -0.19844980930545553,
+            "current_year_return": -0.02201350418846182,
+            "current_year_max_drawdown": -0.21954322149911054,
+            "current_drawdown_from_year_high": -0.21954322149911054,
             "completed_test_quarters": 12
           }
         },
@@ -595,66 +577,18 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-08-20",
+          "signal_date": "2026-08-21",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "BRSAN",
-              "market": "BIST",
-              "target_weight": 0.3333333333333333
-            },
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "target_weight": 0.3333333333333333
-            },
-            {
-              "symbol": "TRENJ",
-              "market": "BIST",
-              "target_weight": 0.3333333333333333
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "BRSAN",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "TRENJ",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "BRSAN",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "TRENJ",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "breadth_min": 0.4,
             "dispersion_min": 0.01,
@@ -671,7 +605,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-08-20T18:24:02",
+          "parameter_calculation_date": "2026-08-21T10:33:42",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -679,9 +613,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.5892948166575953,
+            "current_year_return": 0.5898562885235794,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.0787044456609387,
+            "current_drawdown_from_year_high": -0.07837896700927771,
             "completed_test_quarters": 12
           }
         },
@@ -694,41 +628,23 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-08-20",
+          "signal_date": "2026-08-21",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "TRENJ",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "TRENJ",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "TRENJ",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-08-20T18:24:02",
+          "parameter_calculation_date": "2026-08-21T10:33:42",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -736,9 +652,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.08945205551388602,
+            "current_year_return": 0.10748587770538709,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.17194655495381328,
+            "current_drawdown_from_year_high": -0.15823969330951726,
             "completed_test_quarters": 12
           }
         },
@@ -751,42 +667,24 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-08-20",
+          "signal_date": "2026-08-21",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "GSRAY",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-08-20T18:24:02",
+          "parameter_calculation_date": "2026-08-21T10:33:42",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -794,9 +692,9 @@
             "train_max_drawdown": -0.870679685893138,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.3547188419647664,
+            "current_year_return": 1.2927525974171976,
             "current_year_max_drawdown": -0.2932209586245661,
-            "current_drawdown_from_year_high": -0.23288990056982084,
+            "current_drawdown_from_year_high": -0.2530769951685702,
             "completed_test_quarters": 12
           }
         }
