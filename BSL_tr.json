@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-08-25T10:32:42",
+  "generated_at": "2026-08-25T13:33:20",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260825T103242-0bfaaa4c",
-      "generated_at": "2026-08-25T10:32:42",
+      "report_id": "TR-BIST-20260825T133320-abad0258",
+      "generated_at": "2026-08-25T13:33:20",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-08-25T10:35:06",
+          "parameter_calculation_date": "2026-08-25T13:36:01",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -584,11 +584,59 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "OTKAR",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "OYAKC",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VAKBN",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "OTKAR",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "OYAKC",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VAKBN",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "OTKAR",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "OYAKC",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VAKBN",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "breadth_min": 0.4,
             "dispersion_min": 0.01,
@@ -605,7 +653,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-08-25T10:35:06",
+          "parameter_calculation_date": "2026-08-25T13:36:01",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -613,9 +661,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6296488298834959,
+            "current_year_return": 0.5927526994727021,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.05531169776099287,
+            "current_drawdown_from_year_high": -0.07669995157236986,
             "completed_test_quarters": 12
           }
         },
@@ -637,7 +685,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "TUPRS",
+              "symbol": "CIMSA",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -645,14 +693,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "TUPRS",
+              "symbol": "CIMSA",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "TUPRS",
+              "symbol": "CIMSA",
               "market": "BIST",
               "weight": 1.0
             }
@@ -662,7 +710,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-08-25T10:35:06",
+          "parameter_calculation_date": "2026-08-25T13:36:01",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -670,9 +718,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.10005622877636222,
+            "current_year_return": 0.08175782989699587,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.1638867030700898,
+            "current_drawdown_from_year_high": -0.17779465996842392,
             "completed_test_quarters": 12
           }
         },
@@ -702,7 +750,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-08-25T10:35:06",
+          "parameter_calculation_date": "2026-08-25T13:36:01",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -710,9 +758,9 @@
             "train_max_drawdown": -0.870679685893138,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.308579798784757,
+            "current_year_return": 1.2327109791063844,
             "current_year_max_drawdown": -0.2932209586245661,
-            "current_drawdown_from_year_high": -0.2479208780991372,
+            "current_drawdown_from_year_high": -0.27263709337287456,
             "completed_test_quarters": 12
           }
         }
