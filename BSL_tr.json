@@ -1,20 +1,20 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-08-25T17:47:33",
+  "generated_at": "2026-08-25T21:36:47",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260825T174733-3af007d5",
-      "generated_at": "2026-08-25T17:47:33",
+      "report_id": "TR-BIST-20260825T213647-95a1dabf",
+      "generated_at": "2026-08-25T21:36:47",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
-      "data_status": "READY_INTRADAY",
+      "data_status": "READY",
       "signal_date": "2026-08-25",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
-      "signal_bar_state": "INTRADAY_PARTIAL",
+      "signal_bar_state": "COMPLETED",
       "incomplete_current_day_enabled": true,
       "active_quarter": "2026-Q3",
       "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
@@ -535,26 +535,44 @@
           "portfolio_size": 5,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
-          "data_status": "READY_INTRADAY",
+          "data_status": "READY",
           "actionable": true,
           "signal_date": "2026-08-25",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "INTRADAY_PARTIAL",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "TAVHL",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "TAVHL",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "TAVHL",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-08-25T17:52:46",
+          "parameter_calculation_date": "2026-08-25T21:39:11",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -575,12 +593,12 @@
           "portfolio_size": 3,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
-          "data_status": "READY_INTRADAY",
+          "data_status": "READY",
           "actionable": true,
           "signal_date": "2026-08-25",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "INTRADAY_PARTIAL",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
@@ -653,7 +671,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-08-25T17:52:46",
+          "parameter_calculation_date": "2026-08-25T21:39:11",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -661,9 +679,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.5821680876569704,
+            "current_year_return": 0.5927285025885181,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.08283572682818208,
+            "current_drawdown_from_year_high": -0.0767139782221733,
             "completed_test_quarters": 12
           }
         },
@@ -674,18 +692,18 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
-          "data_status": "READY_INTRADAY",
+          "data_status": "READY",
           "actionable": true,
           "signal_date": "2026-08-25",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "INTRADAY_PARTIAL",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "CIMSA",
+              "symbol": "ALARK",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -693,14 +711,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "CIMSA",
+              "symbol": "ALARK",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "CIMSA",
+              "symbol": "ALARK",
               "market": "BIST",
               "weight": 1.0
             }
@@ -710,7 +728,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-08-25T17:52:46",
+          "parameter_calculation_date": "2026-08-25T21:39:11",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -718,9 +736,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.08068142921055266,
+            "current_year_return": 0.07852873116975556,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.17861279353579684,
+            "current_drawdown_from_year_high": -0.18024898213152662,
             "completed_test_quarters": 12
           }
         },
@@ -731,12 +749,12 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
-          "data_status": "READY_INTRADAY",
+          "data_status": "READY",
           "actionable": true,
           "signal_date": "2026-08-25",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "INTRADAY_PARTIAL",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
@@ -768,7 +786,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-08-25T17:52:46",
+          "parameter_calculation_date": "2026-08-25T21:39:11",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -776,16 +794,15 @@
             "train_max_drawdown": -0.870679685893138,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.2172275465189615,
+            "current_year_return": 1.2358076656238688,
             "current_year_max_drawdown": -0.2932209586245661,
-            "current_drawdown_from_year_high": -0.2776812189389435,
+            "current_drawdown_from_year_high": -0.2716282682596609,
             "completed_test_quarters": 12
           }
         }
       ],
       "warnings": [
-        "MASTER sembol listesi değiştiği için yalnız aktif çeyrek evreni yenilendi.",
-        "BIST piyasasi acikken kapanmamis gunluk mum degerlendiriliyor; Open/High/Low/Close/Volume seans ilerledikce degisebilir ve ayni gun yeniden calistirmada sinyal degisebilir."
+        "MASTER sembol listesi değiştiği için yalnız aktif çeyrek evreni yenilendi."
       ]
     }
   }
