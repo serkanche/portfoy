@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-08-27T13:35:07",
+  "generated_at": "2026-08-27T17:33:20",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260827T133507-7f4a950d",
-      "generated_at": "2026-08-27T13:35:07",
+      "report_id": "TR-BIST-20260827T173320-7ed064a1",
+      "generated_at": "2026-08-27T17:33:20",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-08-27T13:37:31",
+          "parameter_calculation_date": "2026-08-27T17:35:45",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.020325085897829664,
-            "current_year_max_drawdown": -0.21819582303756502,
-            "current_drawdown_from_year_high": -0.21819582303756502,
+            "current_year_return": -0.016667726431556562,
+            "current_year_max_drawdown": -0.21772320227643194,
+            "current_drawdown_from_year_high": -0.21527716209583225,
             "completed_test_quarters": 12
           }
         },
@@ -586,17 +586,17 @@
           "hold_signal": [],
           "buy_signal": [
             {
+              "symbol": "DOHOL",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
               "symbol": "FENER",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
             {
               "symbol": "HALKB",
-              "market": "BIST",
-              "target_weight": 0.3333333333333333
-            },
-            {
-              "symbol": "KRDMD",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             }
@@ -604,34 +604,34 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
+              "symbol": "DOHOL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
               "symbol": "FENER",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
               "symbol": "HALKB",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "KRDMD",
               "market": "BIST",
               "weight": 0.3333333333333333
             }
           ],
           "actionable_target_portfolio": [
             {
+              "symbol": "DOHOL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
               "symbol": "FENER",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
               "symbol": "HALKB",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "KRDMD",
               "market": "BIST",
               "weight": 0.3333333333333333
             }
@@ -653,7 +653,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-08-27T13:37:31",
+          "parameter_calculation_date": "2026-08-27T17:35:45",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -661,9 +661,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6366139805261728,
+            "current_year_return": 0.6411655766316231,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.051274081671678795,
+            "current_drawdown_from_year_high": -0.04863557482376912,
             "completed_test_quarters": 12
           }
         },
@@ -710,7 +710,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-08-27T13:37:31",
+          "parameter_calculation_date": "2026-08-27T17:35:45",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -768,7 +768,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-08-27T13:37:31",
+          "parameter_calculation_date": "2026-08-27T17:35:45",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -776,9 +776,9 @@
             "train_max_drawdown": -0.870679685893138,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.2137746243463496,
+            "current_year_return": 1.2392007607735027,
             "current_year_max_drawdown": -0.2932209586245661,
-            "current_drawdown_from_year_high": -0.2788060969600268,
+            "current_drawdown_from_year_high": -0.27052288042684436,
             "completed_test_quarters": 12
           }
         }
