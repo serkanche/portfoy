@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-08-28T13:35:38",
+  "generated_at": "2026-08-28T17:33:26",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260828T133538-4af2724f",
-      "generated_at": "2026-08-28T13:35:38",
+      "report_id": "TR-BIST-20260828T173326-6718c5ad",
+      "generated_at": "2026-08-28T17:33:26",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -546,24 +546,54 @@
           "hold_signal": [],
           "buy_signal": [
             {
+              "symbol": "SKBNK",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "TUKAS",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
               "symbol": "VAKBN",
               "market": "BIST",
-              "target_weight": 1.0
+              "target_weight": 0.3333333333333333
             }
           ],
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
+              "symbol": "SKBNK",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "TUKAS",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
               "symbol": "VAKBN",
               "market": "BIST",
-              "weight": 1.0
+              "weight": 0.3333333333333333
             }
           ],
           "actionable_target_portfolio": [
             {
+              "symbol": "SKBNK",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "TUKAS",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
               "symbol": "VAKBN",
               "market": "BIST",
-              "weight": 1.0
+              "weight": 0.3333333333333333
             }
           ],
           "cash_signal": false,
@@ -572,7 +602,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-08-28T13:38:02",
+          "parameter_calculation_date": "2026-08-28T17:35:49",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -609,7 +639,7 @@
               "target_weight": 0.3333333333333333
             },
             {
-              "symbol": "TRMET",
+              "symbol": "SKBNK",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
@@ -627,7 +657,7 @@
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "TRMET",
+              "symbol": "SKBNK",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -644,7 +674,7 @@
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "TRMET",
+              "symbol": "SKBNK",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -671,7 +701,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-08-28T13:38:02",
+          "parameter_calculation_date": "2026-08-28T17:35:49",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -679,9 +709,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6857092845647341,
+            "current_year_return": 0.6803306837467669,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.022814110069445892,
+            "current_drawdown_from_year_high": -0.025932021844039754,
             "completed_test_quarters": 12
           }
         },
@@ -703,7 +733,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "HALKB",
+              "symbol": "SKBNK",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -711,14 +741,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "HALKB",
+              "symbol": "SKBNK",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "HALKB",
+              "symbol": "SKBNK",
               "market": "BIST",
               "weight": 1.0
             }
@@ -728,7 +758,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-08-28T13:38:02",
+          "parameter_calculation_date": "2026-08-28T17:35:49",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -760,7 +790,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "HALKB",
+              "symbol": "VAKBN",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -768,14 +798,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "HALKB",
+              "symbol": "VAKBN",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "HALKB",
+              "symbol": "VAKBN",
               "market": "BIST",
               "weight": 1.0
             }
@@ -786,7 +816,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-08-28T13:38:02",
+          "parameter_calculation_date": "2026-08-28T17:35:49",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -794,9 +824,9 @@
             "train_max_drawdown": -0.870679685893138,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.1924368354845987,
-            "current_year_max_drawdown": -0.2932209586245661,
-            "current_drawdown_from_year_high": -0.28575742934147585,
+            "current_year_return": 1.1524532244869667,
+            "current_year_max_drawdown": -0.29878311685089354,
+            "current_drawdown_from_year_high": -0.29878311685089354,
             "completed_test_quarters": 12
           }
         }
