@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-08-31T10:42:42",
+  "generated_at": "2026-08-31T13:34:01",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260831T104242-6a527254",
-      "generated_at": "2026-08-31T10:42:42",
+      "report_id": "TR-BIST-20260831T133401-99263cb9",
+      "generated_at": "2026-08-31T13:34:01",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-08-31T10:45:07",
+          "parameter_calculation_date": "2026-08-31T13:36:26",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.03739137096863043,
-            "current_year_max_drawdown": -0.2318151295662123,
-            "current_drawdown_from_year_high": -0.2318151295662123,
+            "current_year_return": -0.05461760432508411,
+            "current_year_max_drawdown": -0.24556207867917146,
+            "current_drawdown_from_year_high": -0.24556207867917146,
             "completed_test_quarters": 12
           }
         },
@@ -586,12 +586,12 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "EREGL",
+              "symbol": "AGHOL",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
             {
-              "symbol": "KRDMD",
+              "symbol": "ECILC",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
@@ -604,12 +604,12 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "EREGL",
+              "symbol": "AGHOL",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "KRDMD",
+              "symbol": "ECILC",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -621,12 +621,12 @@
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "EREGL",
+              "symbol": "AGHOL",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "KRDMD",
+              "symbol": "ECILC",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -653,7 +653,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-08-31T10:45:07",
+          "parameter_calculation_date": "2026-08-31T13:36:26",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -661,9 +661,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6287029221339835,
+            "current_year_return": 0.5854173308216575,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.0558600293828585,
+            "current_drawdown_from_year_high": -0.08095217869650917,
             "completed_test_quarters": 12
           }
         },
@@ -685,7 +685,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "FROTO",
+              "symbol": "SAHOL",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -693,14 +693,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "FROTO",
+              "symbol": "SAHOL",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "FROTO",
+              "symbol": "SAHOL",
               "market": "BIST",
               "weight": 1.0
             }
@@ -710,7 +710,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-08-31T10:45:07",
+          "parameter_calculation_date": "2026-08-31T13:36:26",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -718,9 +718,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.29456918835097556,
+            "current_year_return": 0.25479742123150473,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.031249935500369808,
+            "current_drawdown_from_year_high": -0.06101188434709759,
             "completed_test_quarters": 12
           }
         },
@@ -750,7 +750,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-08-31T10:45:07",
+          "parameter_calculation_date": "2026-08-31T13:36:26",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -758,9 +758,9 @@
             "train_max_drawdown": -0.870679685893138,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.0783983178584995,
-            "current_year_max_drawdown": -0.32290840339238813,
-            "current_drawdown_from_year_high": -0.32290840339238813,
+            "current_year_return": 1.0145053957796017,
+            "current_year_max_drawdown": -0.34372316264743863,
+            "current_drawdown_from_year_high": -0.34372316264743863,
             "completed_test_quarters": 12
           }
         }
