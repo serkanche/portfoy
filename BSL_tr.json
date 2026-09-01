@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-01T10:36:52",
+  "generated_at": "2026-09-01T13:28:22",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260901T103652-f8ec85b7",
-      "generated_at": "2026-09-01T10:36:52",
+      "report_id": "TR-BIST-20260901T132822-2d6eb560",
+      "generated_at": "2026-09-01T13:28:22",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-01T10:39:16",
+          "parameter_calculation_date": "2026-09-01T13:30:47",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.06396455045705063,
-            "current_year_max_drawdown": -0.2530211668140465,
-            "current_drawdown_from_year_high": -0.2530211668140465,
+            "current_year_return": -0.06314853688656363,
+            "current_year_max_drawdown": -0.25236996833107894,
+            "current_drawdown_from_year_high": -0.25236996833107894,
             "completed_test_quarters": 12
           }
         },
@@ -586,7 +586,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "ISMEN",
+              "symbol": "ODAS",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
@@ -604,7 +604,7 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "ISMEN",
+              "symbol": "ODAS",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -621,7 +621,7 @@
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "ISMEN",
+              "symbol": "ODAS",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -653,7 +653,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-01T10:39:16",
+          "parameter_calculation_date": "2026-09-01T13:30:47",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -661,9 +661,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.5811984073098295,
+            "current_year_return": 0.5777406394277389,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.08339783914591403,
+            "current_drawdown_from_year_high": -0.08540226660916228,
             "completed_test_quarters": 12
           }
         },
@@ -692,7 +692,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-01T10:39:16",
+          "parameter_calculation_date": "2026-09-01T13:30:47",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -700,9 +700,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.23979646387813025,
+            "current_year_return": 0.24087728911787987,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.07223737815183495,
+            "current_drawdown_from_year_high": -0.07142857663690472,
             "completed_test_quarters": 12
           }
         },
@@ -732,7 +732,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-01T10:39:16",
+          "parameter_calculation_date": "2026-09-01T13:30:47",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
