@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-02T13:33:45",
+  "generated_at": "2026-09-02T17:33:40",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260902T133345-2c9d4b5c",
-      "generated_at": "2026-09-02T13:33:45",
+      "report_id": "TR-BIST-20260902T173341-5090205f",
+      "generated_at": "2026-09-02T17:33:40",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -544,17 +544,50 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "target_weight": 0.5
+            },
+            {
+              "symbol": "ZOREN",
+              "market": "BIST",
+              "target_weight": 0.5
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.5
+            },
+            {
+              "symbol": "ZOREN",
+              "market": "BIST",
+              "weight": 0.5
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.5
+            },
+            {
+              "symbol": "ZOREN",
+              "market": "BIST",
+              "weight": 0.5
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-02T13:36:10",
+          "parameter_calculation_date": "2026-09-02T17:36:06",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -584,11 +617,59 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "AGHOL",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "ZOREN",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "AGHOL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "ZOREN",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "AGHOL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "ZOREN",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "breadth_min": 0.4,
             "dispersion_min": 0.01,
@@ -605,7 +686,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-02T13:36:10",
+          "parameter_calculation_date": "2026-09-02T17:36:06",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -613,9 +694,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.5436296613362159,
-            "current_year_max_drawdown": -0.1051760003057014,
-            "current_drawdown_from_year_high": -0.1051760003057014,
+            "current_year_return": 0.5597400639574459,
+            "current_year_max_drawdown": -0.09583698896684467,
+            "current_drawdown_from_year_high": -0.09583698896684467,
             "completed_test_quarters": 12
           }
         },
@@ -637,7 +718,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "TRENJ",
+              "symbol": "ZOREN",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -645,14 +726,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "TRENJ",
+              "symbol": "ZOREN",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "TRENJ",
+              "symbol": "ZOREN",
               "market": "BIST",
               "weight": 1.0
             }
@@ -662,7 +743,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-02T13:36:10",
+          "parameter_calculation_date": "2026-09-02T17:36:06",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -670,9 +751,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.18975205323746192,
+            "current_year_return": 0.20702611332518384,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.10968653612055501,
+            "current_drawdown_from_year_high": -0.09676003750253437,
             "completed_test_quarters": 12
           }
         },
@@ -692,17 +773,35 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-02T13:36:10",
+          "parameter_calculation_date": "2026-09-02T17:36:06",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
