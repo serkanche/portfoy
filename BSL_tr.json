@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-03T13:33:39",
+  "generated_at": "2026-09-03T17:33:18",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260903T133339-01b1e551",
-      "generated_at": "2026-09-03T13:33:39",
+      "report_id": "TR-BIST-20260903T173318-56e2f0be",
+      "generated_at": "2026-09-03T17:33:18",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-03T13:36:10",
+          "parameter_calculation_date": "2026-09-03T17:35:44",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.041780239944053665,
+            "current_year_return": -0.06683460738791391,
             "current_year_max_drawdown": -0.26409234856916075,
-            "current_drawdown_from_year_high": -0.23531755271468224,
+            "current_drawdown_from_year_high": -0.25531154137030965,
             "completed_test_quarters": 12
           }
         },
@@ -605,7 +605,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-03T13:36:10",
+          "parameter_calculation_date": "2026-09-03T17:35:44",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -613,9 +613,9 @@
             "train_max_drawdown": -0.3330702088409051,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6225327712770796,
+            "current_year_return": 0.5648470652663637,
             "current_year_max_drawdown": -0.09409039322339208,
-            "current_drawdown_from_year_high": -0.05943679342593389,
+            "current_drawdown_from_year_high": -0.09287652024034054,
             "completed_test_quarters": 12
           }
         },
@@ -644,7 +644,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-03T13:36:10",
+          "parameter_calculation_date": "2026-09-03T17:35:44",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -652,9 +652,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.25023738016562747,
+            "current_year_return": 0.23411479109187416,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.06442424740690178,
+            "current_drawdown_from_year_high": -0.0764890789706707,
             "completed_test_quarters": 12
           }
         },
@@ -702,7 +702,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-03T13:36:10",
+          "parameter_calculation_date": "2026-09-03T17:35:44",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
