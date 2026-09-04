@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-04T10:43:39",
+  "generated_at": "2026-09-04T13:33:23",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260904T104339-5cde8acf",
-      "generated_at": "2026-09-04T10:43:39",
+      "report_id": "TR-BIST-20260904T133323-08bda21b",
+      "generated_at": "2026-09-04T13:33:23",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-04T10:46:05",
+          "parameter_calculation_date": "2026-09-04T13:35:49",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.09447526702616815,
-            "current_year_max_drawdown": -0.2773694534880129,
-            "current_drawdown_from_year_high": -0.2773694534880129,
+            "current_year_return": -0.09551662310919529,
+            "current_year_max_drawdown": -0.2782004807233709,
+            "current_drawdown_from_year_high": -0.2782004807233709,
             "completed_test_quarters": 12
           }
         },
@@ -584,11 +584,59 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "breadth_min": 0.4,
             "dispersion_min": 0.01,
@@ -605,7 +653,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-04T10:46:05",
+          "parameter_calculation_date": "2026-09-04T13:35:49",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -662,7 +710,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-04T10:46:05",
+          "parameter_calculation_date": "2026-09-04T13:35:49",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -692,17 +740,35 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-04T10:46:05",
+          "parameter_calculation_date": "2026-09-04T13:35:49",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -710,9 +776,9 @@
             "train_max_drawdown": -0.870679685893138,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.2919085038268618,
+            "current_year_return": 1.3954850706994222,
             "current_year_max_drawdown": -0.3544366485022371,
-            "current_drawdown_from_year_high": -0.25335198032028816,
+            "current_drawdown_from_year_high": -0.21960925524575237,
             "completed_test_quarters": 12
           }
         }
