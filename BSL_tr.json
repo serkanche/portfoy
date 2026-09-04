@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-04T17:34:13",
+  "generated_at": "2026-09-04T18:38:37",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260904T173413-c7ab87f2",
-      "generated_at": "2026-09-04T17:34:13",
+      "report_id": "TR-BIST-20260904T183837-a9796365",
+      "generated_at": "2026-09-04T18:38:37",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -546,24 +546,69 @@
           "hold_signal": [],
           "buy_signal": [
             {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "target_weight": 0.25
+            },
+            {
               "symbol": "TOASO",
               "market": "BIST",
-              "target_weight": 1.0
+              "target_weight": 0.25
+            },
+            {
+              "symbol": "TUKAS",
+              "market": "BIST",
+              "target_weight": 0.25
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "target_weight": 0.25
             }
           ],
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "weight": 0.25
+            },
+            {
               "symbol": "TOASO",
               "market": "BIST",
-              "weight": 1.0
+              "weight": 0.25
+            },
+            {
+              "symbol": "TUKAS",
+              "market": "BIST",
+              "weight": 0.25
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.25
             }
           ],
           "actionable_target_portfolio": [
             {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "weight": 0.25
+            },
+            {
               "symbol": "TOASO",
               "market": "BIST",
-              "weight": 1.0
+              "weight": 0.25
+            },
+            {
+              "symbol": "TUKAS",
+              "market": "BIST",
+              "weight": 0.25
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.25
             }
           ],
           "cash_signal": false,
@@ -572,7 +617,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-04T17:37:00",
+          "parameter_calculation_date": "2026-09-04T18:41:07",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -580,9 +625,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.09135090066729523,
-            "current_year_max_drawdown": -0.27487613388314547,
-            "current_drawdown_from_year_high": -0.27487613388314547,
+            "current_year_return": -0.10176525637022471,
+            "current_year_max_drawdown": -0.2831870405642506,
+            "current_drawdown_from_year_high": -0.2831870405642506,
             "completed_test_quarters": 12
           }
         },
@@ -602,11 +647,59 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "HALKB",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "RALYH",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
+              "symbol": "VESTL",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "breadth_min": 0.4,
             "dispersion_min": 0.01,
@@ -623,7 +716,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-04T17:37:00",
+          "parameter_calculation_date": "2026-09-04T18:41:07",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -680,7 +773,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-04T17:37:00",
+          "parameter_calculation_date": "2026-09-04T18:41:07",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -738,7 +831,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-04T17:37:00",
+          "parameter_calculation_date": "2026-09-04T18:41:07",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
