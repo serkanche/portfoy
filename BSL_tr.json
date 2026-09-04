@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-04T16:53:19",
+  "generated_at": "2026-09-04T17:34:13",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260904T165319-9deee89b",
-      "generated_at": "2026-09-04T16:53:19",
+      "report_id": "TR-BIST-20260904T173413-c7ab87f2",
+      "generated_at": "2026-09-04T17:34:13",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -572,7 +572,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-04T16:55:51",
+          "parameter_calculation_date": "2026-09-04T17:37:00",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -580,9 +580,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.08978881707475406,
-            "current_year_max_drawdown": -0.27362955355345275,
-            "current_drawdown_from_year_high": -0.27362955355345275,
+            "current_year_return": -0.09135090066729523,
+            "current_year_max_drawdown": -0.27487613388314547,
+            "current_drawdown_from_year_high": -0.27487613388314547,
             "completed_test_quarters": 12
           }
         },
@@ -623,7 +623,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-04T16:55:51",
+          "parameter_calculation_date": "2026-09-04T17:37:00",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -680,7 +680,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-04T16:55:51",
+          "parameter_calculation_date": "2026-09-04T17:37:00",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -738,7 +738,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-04T16:55:51",
+          "parameter_calculation_date": "2026-09-04T17:37:00",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
