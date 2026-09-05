@@ -1,6 +1,6 @@
 {
   "version": "PFY_PR_v5",
-  "generated_at": "2026-09-04 18:29:37",
+  "generated_at": "2026-09-05 10:32:27",
   "defaults": {
     "market": "PR",
     "period": "BIWEEKLY"
@@ -5769,7 +5769,7 @@
         "Next_M_Prob": "DU-D %58",
         "Prev_M_Result": "",
         "WMA200": "-6.1%, UP",
-        "Last_Close_TL": 16611.23,
+        "Last_Close_TL": 16611.2,
         "Note": "Q y\u00fckseli\u015f aya\u011f\u0131 %1 olu\u015fmu\u015f; Q d\u00fc\u015f\u00fc\u015f RR 1.2; Q UD geri verme b\u00fcy\u00fck \u00f6l\u00e7\u00fcde olu\u015fmu\u015f",
         "Daily_Change_Pct": 0.77,
         "S_Path": "+5.1% \u2192 -18.9%",
@@ -5802,7 +5802,7 @@
         "Next_M_Prob": "DU-D %53",
         "Prev_M_Result": "",
         "WMA200": "-0.4%, DOWN",
-        "Last_Close_TL": 16445.41,
+        "Last_Close_TL": 16445.4,
         "Note": "Q y\u00fckseli\u015f aya\u011f\u0131 %9 olu\u015fmu\u015f; Q d\u00fc\u015f\u00fc\u015f RR 1.0; Q UD geri verme b\u00fcy\u00fck \u00f6l\u00e7\u00fcde olu\u015fmu\u015f",
         "Daily_Change_Pct": 0.9,
         "S_Path": "+4.9% \u2192 -14.7%",
@@ -5835,7 +5835,7 @@
         "Next_M_Prob": "UD-U %53",
         "Prev_M_Result": "",
         "WMA200": "+2.2%, DOWN",
-        "Last_Close_TL": 19229.67,
+        "Last_Close_TL": 19229.7,
         "Note": "Q y\u00fckseli\u015f aya\u011f\u0131 %101 olu\u015fmu\u015f; Q d\u00fc\u015f\u00fc\u015f RR 1.0; Q UD-D d\u00fc\u015f\u00fc\u015f/short riski aktif",
         "Daily_Change_Pct": 0.42,
         "S_Path": "+3.6% \u2192 -12.1%",
