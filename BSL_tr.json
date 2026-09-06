@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-06T17:10:40",
+  "generated_at": "2026-09-06T18:25:10",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260906T171040-5782ba05",
-      "generated_at": "2026-09-06T17:10:40",
+      "report_id": "TR-BIST-20260906T182510-38d5ede7",
+      "generated_at": "2026-09-06T18:25:10",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY",
@@ -617,7 +617,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-06T17:13:11",
+          "parameter_calculation_date": "2026-09-06T18:27:36",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -716,7 +716,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-06T17:13:11",
+          "parameter_calculation_date": "2026-09-06T18:27:36",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -773,7 +773,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-06T17:13:11",
+          "parameter_calculation_date": "2026-09-06T18:27:36",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -831,7 +831,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-06T17:13:11",
+          "parameter_calculation_date": "2026-09-06T18:27:36",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
