@@ -1,6 +1,6 @@
 {
-  "version": "PFY_PR_v5",
-  "generated_at": "2026-09-05 10:32:27",
+  "version": "PFY_PR_v6",
+  "generated_at": "2026-09-06 17:06:39",
   "defaults": {
     "market": "PR",
     "period": "BIWEEKLY"
