@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-07T10:34:13",
+  "generated_at": "2026-09-07T13:33:41",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260907T103413-6e334257",
-      "generated_at": "2026-09-07T10:34:13",
+      "report_id": "TR-BIST-20260907T133341-f53fd151",
+      "generated_at": "2026-09-07T13:33:41",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -554,17 +554,17 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-07T10:36:38",
+          "parameter_calculation_date": "2026-09-07T13:36:23",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
-            "train_average_annual_return": 0.9695697859002748,
+            "train_average_annual_return": 0.9673831815882384,
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.1070990706410444,
-            "current_year_max_drawdown": -0.28744355281749157,
-            "current_drawdown_from_year_high": -0.28744355281749157,
+            "current_year_return": -0.10292181891536945,
+            "current_year_max_drawdown": -0.29039585626666375,
+            "current_drawdown_from_year_high": -0.2841100053311306,
             "completed_test_quarters": 12
           }
         },
@@ -584,59 +584,11 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "ASELS",
-              "market": "BIST",
-              "target_weight": 0.3333333333333333
-            },
-            {
-              "symbol": "FROTO",
-              "market": "BIST",
-              "target_weight": 0.3333333333333333
-            },
-            {
-              "symbol": "RALYH",
-              "market": "BIST",
-              "target_weight": 0.3333333333333333
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "ASELS",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "FROTO",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "RALYH",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "ASELS",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "FROTO",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "RALYH",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "breadth_min": 0.4,
             "dispersion_min": 0.01,
@@ -653,17 +605,17 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-07T10:36:38",
+          "parameter_calculation_date": "2026-09-07T13:36:23",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
-            "train_average_annual_return": 1.7764805018401257,
-            "train_max_drawdown": -0.3330702088409051,
+            "train_average_annual_return": 1.7840006982555263,
+            "train_max_drawdown": -0.333070208840905,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.5032912731487433,
-            "current_year_max_drawdown": -0.12855969055423533,
-            "current_drawdown_from_year_high": -0.12855969055423533,
+            "current_year_return": 0.5587789074293243,
+            "current_year_max_drawdown": -0.09674346105465492,
+            "current_drawdown_from_year_high": -0.09639416012672086,
             "completed_test_quarters": 12
           }
         },
@@ -685,7 +637,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "TRMET",
+              "symbol": "SISE",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -693,14 +645,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "TRMET",
+              "symbol": "SISE",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "TRMET",
+              "symbol": "SISE",
               "market": "BIST",
               "weight": 1.0
             }
@@ -710,17 +662,17 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-07T10:36:38",
+          "parameter_calculation_date": "2026-09-07T13:36:23",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
-            "train_average_annual_return": 1.214715628779786,
+            "train_average_annual_return": 1.2070545328641185,
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.24770797645329878,
+            "current_year_return": 0.25305686568431085,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.06631704698185947,
+            "current_drawdown_from_year_high": -0.06312254817611906,
             "completed_test_quarters": 12
           }
         },
@@ -750,17 +702,17 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-07T10:36:38",
+          "parameter_calculation_date": "2026-09-07T13:36:23",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
-            "train_average_annual_return": 3.977300131701818,
-            "train_max_drawdown": -0.870679685893138,
+            "train_average_annual_return": 4.005829637881444,
+            "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.2764822640245654,
-            "current_year_max_drawdown": -0.3544366485022371,
-            "current_drawdown_from_year_high": -0.25837747386868115,
+            "current_year_return": 1.235501130990726,
+            "current_year_max_drawdown": -0.35726525515690233,
+            "current_drawdown_from_year_high": -0.2717281297839832,
             "completed_test_quarters": 12
           }
         }
