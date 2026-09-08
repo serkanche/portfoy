@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-08T10:18:10",
+  "generated_at": "2026-09-08T13:18:45",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260908T101810-9c8b6b91",
-      "generated_at": "2026-09-08T10:18:10",
+      "report_id": "TR-BIST-20260908T131845-cbf44a4b",
+      "generated_at": "2026-09-08T13:18:45",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -544,17 +544,35 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "ISCTR",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "ISCTR",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "ISCTR",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-08T10:20:39",
+          "parameter_calculation_date": "2026-09-08T13:21:26",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +580,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.07809135038356296,
+            "current_year_return": -0.07265026010639652,
             "current_year_max_drawdown": -0.29039585626666375,
-            "current_drawdown_from_year_high": -0.26429469339993616,
+            "current_drawdown_from_year_high": -0.25995257230988367,
             "completed_test_quarters": 12
           }
         },
@@ -586,17 +604,17 @@
           "hold_signal": [],
           "buy_signal": [
             {
+              "symbol": "AKSA",
+              "market": "BIST",
+              "target_weight": 0.3333333333333333
+            },
+            {
               "symbol": "PETKM",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
             {
               "symbol": "SASA",
-              "market": "BIST",
-              "target_weight": 0.3333333333333333
-            },
-            {
-              "symbol": "SISE",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             }
@@ -604,34 +622,34 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
+              "symbol": "AKSA",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
               "symbol": "PETKM",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
               "symbol": "SASA",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "SISE",
               "market": "BIST",
               "weight": 0.3333333333333333
             }
           ],
           "actionable_target_portfolio": [
             {
+              "symbol": "AKSA",
+              "market": "BIST",
+              "weight": 0.3333333333333333
+            },
+            {
               "symbol": "PETKM",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
               "symbol": "SASA",
-              "market": "BIST",
-              "weight": 0.3333333333333333
-            },
-            {
-              "symbol": "SISE",
               "market": "BIST",
               "weight": 0.3333333333333333
             }
@@ -653,7 +671,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-08T10:20:39",
+          "parameter_calculation_date": "2026-09-08T13:21:26",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -661,9 +679,9 @@
             "train_max_drawdown": -0.333070208840905,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6205015982859192,
+            "current_year_return": 0.6236326903414138,
             "current_year_max_drawdown": -0.09674346105465492,
-            "current_drawdown_from_year_high": -0.06061424057245213,
+            "current_drawdown_from_year_high": -0.05879918325223743,
             "completed_test_quarters": 12
           }
         },
@@ -685,7 +703,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "SARKY",
+              "symbol": "AKSA",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -693,14 +711,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "SARKY",
+              "symbol": "AKSA",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "SARKY",
+              "symbol": "AKSA",
               "market": "BIST",
               "weight": 1.0
             }
@@ -710,7 +728,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-08T10:20:39",
+          "parameter_calculation_date": "2026-09-08T13:21:26",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -718,9 +736,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.23018677397274034,
+            "current_year_return": 0.21973192886815607,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.08022191040978222,
+            "current_drawdown_from_year_high": -0.08803872136947244,
             "completed_test_quarters": 12
           }
         },
@@ -742,7 +760,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "SASA",
+              "symbol": "PETKM",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -750,14 +768,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "SASA",
+              "symbol": "PETKM",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "SASA",
+              "symbol": "PETKM",
               "market": "BIST",
               "weight": 1.0
             }
@@ -768,7 +786,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-08T10:20:39",
+          "parameter_calculation_date": "2026-09-08T13:21:26",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -776,9 +794,9 @@
             "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.2973070731685432,
+            "current_year_return": 1.3032432671560588,
             "current_year_max_drawdown": -0.35726525515690233,
-            "current_drawdown_from_year_high": -0.2515932577965314,
+            "current_drawdown_from_year_high": -0.249659390245618,
             "completed_test_quarters": 12
           }
         }
