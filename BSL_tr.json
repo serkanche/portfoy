@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-14T13:22:25",
+  "generated_at": "2026-09-14T17:46:38",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260914T132225-7fe2be8a",
-      "generated_at": "2026-09-14T13:22:25",
+      "report_id": "TR-BIST-20260914T174638-06827b79",
+      "generated_at": "2026-09-14T17:46:38",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -544,17 +544,35 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "PGSUS",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "PGSUS",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "PGSUS",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-14T13:24:50",
+          "parameter_calculation_date": "2026-09-14T17:49:07",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +580,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.11062945363698651,
-            "current_year_max_drawdown": -0.29039585626666375,
-            "current_drawdown_from_year_high": -0.290260883477667,
+            "current_year_return": -0.13023679769192464,
+            "current_year_max_drawdown": -0.3059080162771616,
+            "current_drawdown_from_year_high": -0.3059080162771616,
             "completed_test_quarters": 12
           }
         },
@@ -586,12 +604,12 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "SASA",
+              "symbol": "PGSUS",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
             {
-              "symbol": "TSKB",
+              "symbol": "SASA",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
@@ -604,12 +622,12 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "SASA",
+              "symbol": "PGSUS",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "TSKB",
+              "symbol": "SASA",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -621,12 +639,12 @@
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "SASA",
+              "symbol": "PGSUS",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "TSKB",
+              "symbol": "SASA",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
@@ -653,7 +671,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-14T13:24:50",
+          "parameter_calculation_date": "2026-09-14T17:49:07",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -661,9 +679,9 @@
             "train_max_drawdown": -0.333070208840905,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6082101377425555,
+            "current_year_return": 0.5758444379365686,
             "current_year_max_drawdown": -0.09674346105465492,
-            "current_drawdown_from_year_high": -0.0721415018535343,
+            "current_drawdown_from_year_high": -0.0908149257479991,
             "completed_test_quarters": 12
           }
         },
@@ -685,7 +703,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "CCOLA",
+              "symbol": "PGSUS",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -693,14 +711,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "CCOLA",
+              "symbol": "PGSUS",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "CCOLA",
+              "symbol": "PGSUS",
               "market": "BIST",
               "weight": 1.0
             }
@@ -710,7 +728,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-14T13:24:50",
+          "parameter_calculation_date": "2026-09-14T17:49:07",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -718,9 +736,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.16600885474172156,
+            "current_year_return": 0.14810918848933574,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.12820604191979124,
+            "current_drawdown_from_year_high": -0.14158914859777505,
             "completed_test_quarters": 12
           }
         },
@@ -750,7 +768,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-14T13:24:50",
+          "parameter_calculation_date": "2026-09-14T17:49:07",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -758,9 +776,9 @@
             "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.393278804248784,
+            "current_year_return": 1.324613841447393,
             "current_year_max_drawdown": -0.35726525515690233,
-            "current_drawdown_from_year_high": -0.22032800316850065,
+            "current_drawdown_from_year_high": -0.2426973771690052,
             "completed_test_quarters": 12
           }
         }
