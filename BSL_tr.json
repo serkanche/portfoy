@@ -1,17 +1,17 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-11T18:53:23",
+  "generated_at": "2026-09-14T13:22:25",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260911T185323-8e79445d",
-      "generated_at": "2026-09-11T18:53:23",
+      "report_id": "TR-BIST-20260914T132225-7fe2be8a",
+      "generated_at": "2026-09-14T13:22:25",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
-      "signal_date": "2026-09-11",
+      "signal_date": "2026-09-14",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
       "signal_bar_state": "INTRADAY_PARTIAL",
@@ -537,57 +537,24 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-11",
+          "signal_date": "2026-09-14",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "TTKOM",
-              "market": "BIST",
-              "target_weight": 0.5
-            },
-            {
-              "symbol": "VAKBN",
-              "market": "BIST",
-              "target_weight": 0.5
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "TTKOM",
-              "market": "BIST",
-              "weight": 0.5
-            },
-            {
-              "symbol": "VAKBN",
-              "market": "BIST",
-              "weight": 0.5
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "TTKOM",
-              "market": "BIST",
-              "weight": 0.5
-            },
-            {
-              "symbol": "VAKBN",
-              "market": "BIST",
-              "weight": 0.5
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-11T18:55:51",
+          "parameter_calculation_date": "2026-09-14T13:24:50",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -595,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.07861703213893412,
+            "current_year_return": -0.11062945363698651,
             "current_year_max_drawdown": -0.29039585626666375,
-            "current_drawdown_from_year_high": -0.26471420010178814,
+            "current_drawdown_from_year_high": -0.290260883477667,
             "completed_test_quarters": 12
           }
         },
@@ -610,7 +577,7 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-11",
+          "signal_date": "2026-09-14",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
@@ -619,17 +586,17 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "TOASO",
+              "symbol": "SASA",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
             {
-              "symbol": "TTKOM",
+              "symbol": "TSKB",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             },
             {
-              "symbol": "VAKBN",
+              "symbol": "TUPRS",
               "market": "BIST",
               "target_weight": 0.3333333333333333
             }
@@ -637,34 +604,34 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "TOASO",
+              "symbol": "SASA",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "TTKOM",
+              "symbol": "TSKB",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "VAKBN",
+              "symbol": "TUPRS",
               "market": "BIST",
               "weight": 0.3333333333333333
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "TOASO",
+              "symbol": "SASA",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "TTKOM",
+              "symbol": "TSKB",
               "market": "BIST",
               "weight": 0.3333333333333333
             },
             {
-              "symbol": "VAKBN",
+              "symbol": "TUPRS",
               "market": "BIST",
               "weight": 0.3333333333333333
             }
@@ -686,7 +653,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-11T18:55:51",
+          "parameter_calculation_date": "2026-09-14T13:24:50",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -694,9 +661,9 @@
             "train_max_drawdown": -0.333070208840905,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.6630323554768083,
+            "current_year_return": 0.6082101377425555,
             "current_year_max_drawdown": -0.09674346105465492,
-            "current_drawdown_from_year_high": -0.0405117667721695,
+            "current_drawdown_from_year_high": -0.0721415018535343,
             "completed_test_quarters": 12
           }
         },
@@ -709,7 +676,7 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-11",
+          "signal_date": "2026-09-14",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
@@ -718,7 +685,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "TTKOM",
+              "symbol": "CCOLA",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -726,14 +693,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "TTKOM",
+              "symbol": "CCOLA",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "TTKOM",
+              "symbol": "CCOLA",
               "market": "BIST",
               "weight": 1.0
             }
@@ -743,7 +710,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-11T18:55:51",
+          "parameter_calculation_date": "2026-09-14T13:24:50",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -751,9 +718,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.21241617015968672,
+            "current_year_return": 0.16600885474172156,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.09350852051797809,
+            "current_drawdown_from_year_high": -0.12820604191979124,
             "completed_test_quarters": 12
           }
         },
@@ -766,42 +733,24 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-11",
+          "signal_date": "2026-09-14",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "VAKBN",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "VAKBN",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "VAKBN",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-11T18:55:51",
+          "parameter_calculation_date": "2026-09-14T13:24:50",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -809,9 +758,9 @@
             "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.4700438380768155,
+            "current_year_return": 1.393278804248784,
             "current_year_max_drawdown": -0.35726525515690233,
-            "current_drawdown_from_year_high": -0.1953198231331097,
+            "current_drawdown_from_year_high": -0.22032800316850065,
             "completed_test_quarters": 12
           }
         }
