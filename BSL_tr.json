@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-16T10:42:57",
+  "generated_at": "2026-09-16T13:20:51",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260916T104257-993f566e",
-      "generated_at": "2026-09-16T10:42:57",
+      "report_id": "TR-BIST-20260916T132052-a596c2b7",
+      "generated_at": "2026-09-16T13:20:51",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -512,7 +512,7 @@
         "ZOREN"
       ],
       "fixed_us_symbols": [],
-      "latest_symbol_coverage": 0.9841269841269841,
+      "latest_symbol_coverage": 1.0,
       "last_3y_completed_test_quarters": [
         "2023-Q3",
         "2023-Q4",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-16T10:45:25",
+          "parameter_calculation_date": "2026-09-16T13:23:17",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.16822150742924347,
-            "current_year_max_drawdown": -0.33622072951077253,
-            "current_drawdown_from_year_high": -0.33622072951077253,
+            "current_year_return": -0.12441510693632152,
+            "current_year_max_drawdown": -0.3083861493719161,
+            "current_drawdown_from_year_high": -0.3012621668385391,
             "completed_test_quarters": 12
           }
         },
@@ -605,7 +605,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-16T10:45:25",
+          "parameter_calculation_date": "2026-09-16T13:23:17",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -613,9 +613,9 @@
             "train_max_drawdown": -0.333070208840905,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.5090130920504201,
-            "current_year_max_drawdown": -0.1293733397063095,
-            "current_drawdown_from_year_high": -0.1293733397063095,
+            "current_year_return": 0.5093049128610416,
+            "current_year_max_drawdown": -0.1292049733885524,
+            "current_drawdown_from_year_high": -0.1292049733885524,
             "completed_test_quarters": 12
           }
         },
@@ -635,16 +635,34 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "ODAS",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "ODAS",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "ODAS",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-16T10:45:25",
+          "parameter_calculation_date": "2026-09-16T13:23:17",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -652,9 +670,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.04183522897848091,
+            "current_year_return": 0.10082498623571023,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.22104737520219164,
+            "current_drawdown_from_year_high": -0.17694229507665338,
             "completed_test_quarters": 12
           }
         },
@@ -674,17 +692,35 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "ODAS",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "ODAS",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "ODAS",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-16T10:45:25",
+          "parameter_calculation_date": "2026-09-16T13:23:17",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -692,9 +728,9 @@
             "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.242824031792067,
+            "current_year_return": 1.3526718810867555,
             "current_year_max_drawdown": -0.35726525515690233,
-            "current_drawdown_from_year_high": -0.26934250689698624,
+            "current_drawdown_from_year_high": -0.23355675061351877,
             "completed_test_quarters": 12
           }
         }
