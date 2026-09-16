@@ -1,17 +1,17 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-15T18:45:57",
+  "generated_at": "2026-09-16T10:42:57",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260915T184557-ce89ddd7",
-      "generated_at": "2026-09-15T18:45:57",
+      "report_id": "TR-BIST-20260916T104257-993f566e",
+      "generated_at": "2026-09-16T10:42:57",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
-      "signal_date": "2026-09-15",
+      "signal_date": "2026-09-16",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
       "signal_bar_state": "INTRADAY_PARTIAL",
@@ -512,7 +512,7 @@
         "ZOREN"
       ],
       "fixed_us_symbols": [],
-      "latest_symbol_coverage": 1.0,
+      "latest_symbol_coverage": 0.9841269841269841,
       "last_3y_completed_test_quarters": [
         "2023-Q3",
         "2023-Q4",
@@ -537,57 +537,24 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-15",
+          "signal_date": "2026-09-16",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "target_weight": 0.5
-            },
-            {
-              "symbol": "ZOREN",
-              "market": "BIST",
-              "target_weight": 0.5
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "weight": 0.5
-            },
-            {
-              "symbol": "ZOREN",
-              "market": "BIST",
-              "weight": 0.5
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "weight": 0.5
-            },
-            {
-              "symbol": "ZOREN",
-              "market": "BIST",
-              "weight": 0.5
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-15T18:48:20",
+          "parameter_calculation_date": "2026-09-16T10:45:25",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -595,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.13334213391073335,
-            "current_year_max_drawdown": -0.3083861493719161,
-            "current_drawdown_from_year_high": -0.3083861493719161,
+            "current_year_return": -0.16822150742924347,
+            "current_year_max_drawdown": -0.33622072951077253,
+            "current_drawdown_from_year_high": -0.33622072951077253,
             "completed_test_quarters": 12
           }
         },
@@ -610,7 +577,7 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-15",
+          "signal_date": "2026-09-16",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
@@ -638,7 +605,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-15T18:48:20",
+          "parameter_calculation_date": "2026-09-16T10:45:25",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -646,9 +613,9 @@
             "train_max_drawdown": -0.333070208840905,
             "last_3y_test_average_annual_return": 1.0110326635489018,
             "last_3y_test_max_drawdown": -0.17695012169321622,
-            "current_year_return": 0.5089572267189473,
-            "current_year_max_drawdown": -0.1294055712669384,
-            "current_drawdown_from_year_high": -0.1294055712669384,
+            "current_year_return": 0.5090130920504201,
+            "current_year_max_drawdown": -0.1293733397063095,
+            "current_drawdown_from_year_high": -0.1293733397063095,
             "completed_test_quarters": 12
           }
         },
@@ -661,41 +628,23 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-15",
+          "signal_date": "2026-09-16",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-15T18:48:20",
+          "parameter_calculation_date": "2026-09-16T10:45:25",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -703,9 +652,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.09464850129713365,
+            "current_year_return": 0.04183522897848091,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.18156028938238034,
+            "current_drawdown_from_year_high": -0.22104737520219164,
             "completed_test_quarters": 12
           }
         },
@@ -718,42 +667,24 @@
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-15",
+          "signal_date": "2026-09-16",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "ZOREN",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "ZOREN",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "ZOREN",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-15T18:48:20",
+          "parameter_calculation_date": "2026-09-16T10:45:25",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -761,9 +692,9 @@
             "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.3174689130497934,
+            "current_year_return": 1.242824031792067,
             "current_year_max_drawdown": -0.35726525515690233,
-            "current_drawdown_from_year_high": -0.24502502097760992,
+            "current_drawdown_from_year_high": -0.26934250689698624,
             "completed_test_quarters": 12
           }
         }
