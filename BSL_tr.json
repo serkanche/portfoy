@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-16T13:20:51",
+  "generated_at": "2026-09-16T17:45:43",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260916T132052-a596c2b7",
-      "generated_at": "2026-09-16T13:20:51",
+      "report_id": "TR-BIST-20260916T174543-accc02cd",
+      "generated_at": "2026-09-16T17:45:43",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-16T13:23:17",
+          "parameter_calculation_date": "2026-09-16T17:48:11",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.12441510693632152,
+            "current_year_return": -0.12518619517166174,
             "current_year_max_drawdown": -0.3083861493719161,
-            "current_drawdown_from_year_high": -0.3012621668385391,
+            "current_drawdown_from_year_high": -0.3018775138220311,
             "completed_test_quarters": 12
           }
         },
@@ -605,7 +605,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-16T13:23:17",
+          "parameter_calculation_date": "2026-09-16T17:48:11",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -637,7 +637,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "ODAS",
+              "symbol": "TKFEN",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -645,14 +645,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "ODAS",
+              "symbol": "TKFEN",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "ODAS",
+              "symbol": "TKFEN",
               "market": "BIST",
               "weight": 1.0
             }
@@ -662,7 +662,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-16T13:23:17",
+          "parameter_calculation_date": "2026-09-16T17:48:11",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -670,9 +670,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.10082498623571023,
+            "current_year_return": 0.09889950622749022,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.17694229507665338,
+            "current_drawdown_from_year_high": -0.17838192551405885,
             "completed_test_quarters": 12
           }
         },
@@ -694,7 +694,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "ODAS",
+              "symbol": "ZOREN",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -702,14 +702,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "ODAS",
+              "symbol": "ZOREN",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "ODAS",
+              "symbol": "ZOREN",
               "market": "BIST",
               "weight": 1.0
             }
@@ -720,7 +720,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-16T13:23:17",
+          "parameter_calculation_date": "2026-09-16T17:48:11",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -728,9 +728,9 @@
             "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.3526718810867555,
+            "current_year_return": 1.3526235299033713,
             "current_year_max_drawdown": -0.35726525515690233,
-            "current_drawdown_from_year_high": -0.23355675061351877,
+            "current_drawdown_from_year_high": -0.23357250225249682,
             "completed_test_quarters": 12
           }
         }
