@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-17T23:44:24",
+  "generated_at": "2026-09-18T07:35:01",
   "database_file": "BSL_PR.db",
   "tag": "usa",
   "reports": {
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "USA-US-20260917T234424-448395ab",
-      "generated_at": "2026-09-17T23:44:24",
+      "report_id": "USA-US-20260918T073501-e1fd2a32",
+      "generated_at": "2026-09-18T07:35:01",
       "market_scope": "US",
       "market_name": "Yabancı",
       "data_status": "READY",
@@ -17,25 +17,40 @@
       "signal_bar_state": "COMPLETED",
       "incomplete_current_day_enabled": true,
       "active_quarter": "2026-Q3",
-      "database_quarter_key": "LIST_BF95CB26DBB81D0ED3BF|US|2026-Q3",
+      "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
       "data_source": "BVR.db FOREIGN ham yerel fiyat -> Hisseler.db",
       "database_file": "BSL_PR.db",
       "one_way_cost_pct": 0.0,
       "fixed_excluded_symbols": [],
       "active_universe": [
         "AAPL",
+        "ABBV",
+        "ABT",
+        "ACN",
+        "ADI",
+        "ADP",
+        "AMAT",
         "AMD",
         "AMZN",
+        "APH",
+        "ASML",
         "AVGO",
+        "AXP",
         "BA",
         "BAC",
+        "BKNG",
+        "BMY",
         "C",
         "CAT",
+        "CMCSA",
         "COP",
+        "COST",
         "CRM",
         "CSCO",
         "CVS",
         "CVX",
+        "DE",
+        "DHR",
         "DIS",
         "F",
         "GE",
@@ -44,30 +59,55 @@
         "GS",
         "HAL",
         "HD",
+        "HON",
+        "IBM",
         "INTC",
+        "ISRG",
         "JNJ",
         "JPM",
+        "KLAC",
         "KMI",
         "KO",
+        "LIN",
+        "LLY",
+        "LMT",
+        "LOW",
+        "LRCX",
         "MA",
         "MCD",
+        "MDT",
         "META",
+        "MRK",
+        "MRVL",
         "MS",
         "MSFT",
         "MU",
+        "NEE",
+        "NEM",
         "NFLX",
         "NKE",
+        "NOW",
         "NVDA",
+        "NXPI",
         "ORCL",
         "OXY",
         "PEP",
         "PFE",
+        "PM",
         "QCOM",
+        "RTX",
+        "SCHW",
         "SLB",
         "SMCI",
+        "SPGI",
+        "SYK",
         "T",
+        "TJX",
         "TSLA",
+        "TSM",
+        "TXN",
         "UNH",
+        "UNP",
         "V",
         "VZ",
         "WBD",
@@ -83,6 +123,36 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "ABBV",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "ABT",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "ACN",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "ADI",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "ADP",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "AMAT",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "AMD",
           "market": "US",
           "native_currency": "USD"
@@ -93,7 +163,22 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "APH",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "ASML",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "AVGO",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "AXP",
           "market": "US",
           "native_currency": "USD"
         },
@@ -108,6 +193,16 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "BKNG",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "BMY",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "C",
           "market": "US",
           "native_currency": "USD"
@@ -118,7 +213,17 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "CMCSA",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "COP",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "COST",
           "market": "US",
           "native_currency": "USD"
         },
@@ -139,6 +244,16 @@
         },
         {
           "symbol": "CVX",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "DE",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "DHR",
           "market": "US",
           "native_currency": "USD"
         },
@@ -183,7 +298,22 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "HON",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "IBM",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "INTC",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "ISRG",
           "market": "US",
           "native_currency": "USD"
         },
@@ -198,12 +328,42 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "KLAC",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "KMI",
           "market": "US",
           "native_currency": "USD"
         },
         {
           "symbol": "KO",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "LIN",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "LLY",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "LMT",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "LOW",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "LRCX",
           "market": "US",
           "native_currency": "USD"
         },
@@ -218,7 +378,22 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "MDT",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "META",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "MRK",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "MRVL",
           "market": "US",
           "native_currency": "USD"
         },
@@ -238,6 +413,16 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "NEE",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "NEM",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "NFLX",
           "market": "US",
           "native_currency": "USD"
@@ -248,7 +433,17 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "NOW",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "NVDA",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "NXPI",
           "market": "US",
           "native_currency": "USD"
         },
@@ -273,7 +468,22 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "PM",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "QCOM",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "RTX",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "SCHW",
           "market": "US",
           "native_currency": "USD"
         },
@@ -288,7 +498,22 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "SPGI",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "SYK",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "T",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "TJX",
           "market": "US",
           "native_currency": "USD"
         },
@@ -298,7 +523,22 @@
           "native_currency": "USD"
         },
         {
+          "symbol": "TSM",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "TXN",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
           "symbol": "UNH",
+          "market": "US",
+          "native_currency": "USD"
+        },
+        {
+          "symbol": "UNP",
           "market": "US",
           "native_currency": "USD"
         },
@@ -340,59 +580,103 @@
       ],
       "fixed_bist_symbols": [],
       "fixed_us_symbols": [
-        "AAPL",
-        "AMD",
-        "AMZN",
-        "AVGO",
-        "BA",
-        "BAC",
-        "C",
-        "CAT",
-        "COP",
-        "CRM",
-        "CSCO",
-        "CVS",
-        "CVX",
-        "DIS",
-        "F",
-        "GE",
-        "GM",
-        "GOOGL",
         "GS",
-        "HAL",
-        "HD",
-        "INTC",
-        "JNJ",
-        "JPM",
-        "KMI",
-        "KO",
-        "MA",
-        "MCD",
         "META",
+        "CAT",
+        "CSCO",
+        "C",
         "MS",
-        "MSFT",
-        "MU",
-        "NFLX",
-        "NKE",
-        "NVDA",
-        "ORCL",
-        "OXY",
-        "PEP",
-        "PFE",
-        "PLTR",
-        "QCOM",
-        "SLB",
+        "JPM",
+        "CRM",
         "SMCI",
-        "T",
+        "PLTR",
+        "GOOGL",
         "TSLA",
         "UBER",
+        "QCOM",
+        "AMD",
+        "NFLX",
+        "NVDA",
+        "AVGO",
+        "OXY",
+        "AMZN",
         "UNH",
+        "BAC",
+        "MA",
+        "HD",
         "V",
-        "VZ",
+        "DIS",
+        "MCD",
         "WBD",
-        "WFC",
+        "KO",
+        "VZ",
+        "MSFT",
+        "JNJ",
+        "KMI",
+        "GE",
+        "T",
         "WMT",
+        "ORCL",
+        "GM",
+        "AAPL",
+        "PEP",
+        "PFE",
+        "BA",
+        "MU",
+        "HAL",
+        "CVS",
         "XOM",
+        "NKE",
+        "INTC",
+        "CVX",
+        "SLB",
+        "WFC",
+        "COP",
+        "F",
+        "NEM",
+        "LLY",
+        "ABBV",
+        "COST",
+        "MRK",
+        "LMT",
+        "RTX",
+        "UNP",
+        "LIN",
+        "PM",
+        "ACN",
+        "IBM",
+        "ABT",
+        "DHR",
+        "NEE",
+        "LOW",
+        "SPGI",
+        "SCHW",
+        "BKNG",
+        "NOW",
+        "HON",
+        "ISRG",
+        "DE",
+        "BMY",
+        "MDT",
+        "SYK",
+        "ADP",
+        "TJX",
+        "AXP",
+        "CMCSA",
+        "MP",
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ARM",
+        "MRVL",
+        "TXN",
+        "ADI",
+        "NXPI",
+        "ANET",
+        "APH",
+        "VRT",
         "^NDX"
       ],
       "latest_symbol_coverage": 1.0,
@@ -417,7 +701,7 @@
           "system_name": "Dual Thrust Long-Only",
           "portfolio_size": 5,
           "quarter_id": "2026-Q3",
-          "database_quarter_key": "LIST_BF95CB26DBB81D0ED3BF|US|2026-Q3",
+          "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
           "data_status": "READY",
           "actionable": true,
           "signal_date": "2026-09-17",
@@ -433,21 +717,21 @@
           "actionable_target_portfolio": [],
           "cash_signal": true,
           "parameters": {
-            "k": 0.5,
-            "n": 10,
+            "k": 0.7,
+            "n": 20,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-17T23:46:06",
+          "parameter_calculation_date": "2026-09-18T07:55:06",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
-            "train_average_annual_return": 0.2504610475902025,
-            "train_max_drawdown": -0.2350383262071336,
-            "last_3y_test_average_annual_return": 0.1876210171795636,
-            "last_3y_test_max_drawdown": -0.23704222654884222,
-            "current_year_return": 0.10176689228505587,
-            "current_year_max_drawdown": -0.08911405742615142,
-            "current_drawdown_from_year_high": -0.031221386277089813,
+            "train_average_annual_return": 0.11577592266477613,
+            "train_max_drawdown": -0.10488275865283736,
+            "last_3y_test_average_annual_return": 0.20109291779221192,
+            "last_3y_test_max_drawdown": -0.1929471147170716,
+            "current_year_return": 0.08387597957803639,
+            "current_year_max_drawdown": -0.10246695156855623,
+            "current_drawdown_from_year_high": -0.022877009506312995,
             "completed_test_quarters": 12
           }
         },
@@ -457,7 +741,7 @@
           "system_name": "Fast Rotation Target",
           "portfolio_size": 3,
           "quarter_id": "2026-Q3",
-          "database_quarter_key": "LIST_BF95CB26DBB81D0ED3BF|US|2026-Q3",
+          "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
           "data_status": "READY",
           "actionable": true,
           "signal_date": "2026-09-17",
@@ -474,7 +758,7 @@
           "cash_signal": true,
           "parameters": {
             "breadth_min": 0.5,
-            "dispersion_min": 0.01,
+            "dispersion_min": 0.0,
             "horizons": [
               2,
               5,
@@ -482,23 +766,23 @@
             ],
             "monthly_profit_lock_pct": 15.0,
             "score_weights": [
-              0.6,
+              0.5,
               0.3,
-              0.1
+              0.2
             ],
-            "trend_ma": 50
+            "trend_ma": 20
           },
-          "parameter_calculation_date": "2026-09-17T23:46:06",
+          "parameter_calculation_date": "2026-09-18T07:55:06",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
-            "train_average_annual_return": 0.34287935653679713,
-            "train_max_drawdown": -0.18411496209271094,
-            "last_3y_test_average_annual_return": 0.2777071008029149,
-            "last_3y_test_max_drawdown": -0.21595460618965623,
-            "current_year_return": 0.13372827063430082,
-            "current_year_max_drawdown": -0.1387500388566426,
-            "current_drawdown_from_year_high": -0.12760849183181033,
+            "train_average_annual_return": 0.40595515843671204,
+            "train_max_drawdown": -0.21631537141844037,
+            "last_3y_test_average_annual_return": 0.3828191734816559,
+            "last_3y_test_max_drawdown": -0.2711624370069632,
+            "current_year_return": 0.11894565306550642,
+            "current_year_max_drawdown": -0.24784461839203054,
+            "current_drawdown_from_year_high": -0.21500574516648785,
             "completed_test_quarters": 12
           }
         },
@@ -508,7 +792,7 @@
           "system_name": "R-Breaker Long-Only",
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
-          "database_quarter_key": "LIST_BF95CB26DBB81D0ED3BF|US|2026-Q3",
+          "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
           "data_status": "READY",
           "actionable": true,
           "signal_date": "2026-09-17",
@@ -542,20 +826,20 @@
           ],
           "cash_signal": false,
           "parameters": {
-            "volume_confirm": true,
+            "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-17T23:46:06",
+          "parameter_calculation_date": "2026-09-18T07:55:06",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
-            "train_average_annual_return": 0.35158258950308496,
-            "train_max_drawdown": -0.4531779368178801,
-            "last_3y_test_average_annual_return": 0.31407169159435383,
-            "last_3y_test_max_drawdown": -0.31837852870307626,
-            "current_year_return": 0.9003318854139442,
-            "current_year_max_drawdown": -0.21089392734600265,
-            "current_drawdown_from_year_high": -0.08150501786898201,
+            "train_average_annual_return": 0.4527313080412022,
+            "train_max_drawdown": -0.362503213071515,
+            "last_3y_test_average_annual_return": 0.8587655974282763,
+            "last_3y_test_max_drawdown": -0.29011157909479346,
+            "current_year_return": 0.8588060182746682,
+            "current_year_max_drawdown": -0.29011157909479335,
+            "current_drawdown_from_year_high": -0.10940560854727654,
             "completed_test_quarters": 12
           }
         },
@@ -565,7 +849,7 @@
           "system_name": "Imitative RDPG Proxy",
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
-          "database_quarter_key": "LIST_BF95CB26DBB81D0ED3BF|US|2026-Q3",
+          "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
           "data_status": "READY",
           "actionable": true,
           "signal_date": "2026-09-17",
@@ -577,7 +861,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "INTC",
+              "symbol": "SMCI",
               "market": "US",
               "target_weight": 1.0
             }
@@ -585,42 +869,40 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "INTC",
+              "symbol": "SMCI",
               "market": "US",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "INTC",
+              "symbol": "SMCI",
               "market": "US",
               "weight": 1.0
             }
           ],
           "cash_signal": false,
           "parameters": {
-            "momentum_window": 20,
+            "momentum_window": 40,
             "prob_threshold": 0.75,
-            "teacher_weight": 0.5
+            "teacher_weight": 0.9
           },
-          "parameter_calculation_date": "2026-09-17T23:46:06",
+          "parameter_calculation_date": "2026-09-18T07:55:06",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
-            "train_average_annual_return": 0.3873452837282802,
-            "train_max_drawdown": -0.6653646361882154,
-            "last_3y_test_average_annual_return": 0.67261077632805,
-            "last_3y_test_max_drawdown": -0.4526873494599427,
-            "current_year_return": 0.4850163333443147,
-            "current_year_max_drawdown": -0.37776035696459365,
-            "current_drawdown_from_year_high": -0.30129887817763124,
+            "train_average_annual_return": 0.3453583019226149,
+            "train_max_drawdown": -0.5080864388128363,
+            "last_3y_test_average_annual_return": 0.7529454400505674,
+            "last_3y_test_max_drawdown": -0.5946376270080391,
+            "current_year_return": 0.46837700528473336,
+            "current_year_max_drawdown": -0.21827209139607107,
+            "current_drawdown_from_year_high": -0.21827209139607107,
             "completed_test_quarters": 12
           }
         }
       ],
-      "warnings": [
-        "MASTER sembol listesi değiştiği için yalnız aktif çeyrek evreni yenilendi."
-      ]
+      "warnings": []
     }
   }
 }
