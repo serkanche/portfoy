@@ -1,20 +1,20 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-17T18:45:53",
+  "generated_at": "2026-09-18T22:37:14",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260917T184553-1c2bef60",
-      "generated_at": "2026-09-17T18:45:53",
+      "report_id": "TR-BIST-20260918T223714-c3d35197",
+      "generated_at": "2026-09-18T22:37:14",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
-      "data_status": "READY_INTRADAY",
-      "signal_date": "2026-09-17",
+      "data_status": "READY",
+      "signal_date": "2026-09-18",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
-      "signal_bar_state": "INTRADAY_PARTIAL",
+      "signal_bar_state": "COMPLETED",
       "incomplete_current_day_enabled": true,
       "active_quarter": "2026-Q3",
       "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
@@ -535,104 +535,26 @@
           "portfolio_size": 5,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
-          "data_status": "READY_INTRADAY",
+          "data_status": "READY",
           "actionable": true,
-          "signal_date": "2026-09-17",
+          "signal_date": "2026-09-18",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "INTRADAY_PARTIAL",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "AKBNK",
-              "market": "BIST",
-              "target_weight": 0.2
-            },
-            {
-              "symbol": "CCOLA",
-              "market": "BIST",
-              "target_weight": 0.2
-            },
-            {
-              "symbol": "GARAN",
-              "market": "BIST",
-              "target_weight": 0.2
-            },
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "target_weight": 0.2
-            },
-            {
-              "symbol": "TSKB",
-              "market": "BIST",
-              "target_weight": 0.2
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "AKBNK",
-              "market": "BIST",
-              "weight": 0.2
-            },
-            {
-              "symbol": "CCOLA",
-              "market": "BIST",
-              "weight": 0.2
-            },
-            {
-              "symbol": "GARAN",
-              "market": "BIST",
-              "weight": 0.2
-            },
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "weight": 0.2
-            },
-            {
-              "symbol": "TSKB",
-              "market": "BIST",
-              "weight": 0.2
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "AKBNK",
-              "market": "BIST",
-              "weight": 0.2
-            },
-            {
-              "symbol": "CCOLA",
-              "market": "BIST",
-              "weight": 0.2
-            },
-            {
-              "symbol": "GARAN",
-              "market": "BIST",
-              "weight": 0.2
-            },
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "weight": 0.2
-            },
-            {
-              "symbol": "TSKB",
-              "market": "BIST",
-              "weight": 0.2
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "k": 0.3,
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-17T18:48:19",
+          "parameter_calculation_date": "2026-09-18T22:39:16",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -640,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.11988604003679404,
-            "current_year_max_drawdown": -0.3083861493719161,
-            "current_drawdown_from_year_high": -0.29764786236996144,
+            "current_year_return": -0.14268659259723115,
+            "current_year_max_drawdown": -0.315843252465397,
+            "current_drawdown_from_year_high": -0.315843252465397,
             "completed_test_quarters": 12
           }
         },
@@ -653,12 +575,12 @@
           "portfolio_size": 3,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
-          "data_status": "READY_INTRADAY",
+          "data_status": "READY",
           "actionable": true,
-          "signal_date": "2026-09-17",
+          "signal_date": "2026-09-18",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "INTRADAY_PARTIAL",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
@@ -683,7 +605,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-17T18:48:19",
+          "parameter_calculation_date": "2026-09-18T22:39:16",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -704,18 +626,18 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
-          "data_status": "READY_INTRADAY",
+          "data_status": "READY",
           "actionable": true,
-          "signal_date": "2026-09-17",
+          "signal_date": "2026-09-18",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "INTRADAY_PARTIAL",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "GUBRF",
+              "symbol": "TOASO",
               "market": "BIST",
               "target_weight": 1.0
             }
@@ -723,14 +645,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "GUBRF",
+              "symbol": "TOASO",
               "market": "BIST",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "GUBRF",
+              "symbol": "TOASO",
               "market": "BIST",
               "weight": 1.0
             }
@@ -738,9 +660,9 @@
           "cash_signal": false,
           "parameters": {
             "volume_confirm": false,
-            "volume_z_min": 0.0
+            "volume_z_min": 0.5
           },
-          "parameter_calculation_date": "2026-09-17T18:48:19",
+          "parameter_calculation_date": "2026-09-18T22:39:16",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -748,9 +670,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.22705734026332913,
+            "current_year_return": 0.2650661110312227,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.08256170516261152,
+            "current_drawdown_from_year_high": -0.054143553298022895,
             "completed_test_quarters": 12
           }
         },
@@ -761,44 +683,26 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "TR_0D518013D549FA97F0AE|BIST|2026-Q3",
-          "data_status": "READY_INTRADAY",
+          "data_status": "READY",
           "actionable": true,
-          "signal_date": "2026-09-17",
+          "signal_date": "2026-09-18",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "INTRADAY_PARTIAL",
+          "signal_bar_state": "COMPLETED",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "TKFEN",
-              "market": "BIST",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-17T18:48:19",
+          "parameter_calculation_date": "2026-09-18T22:39:16",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -806,16 +710,15 @@
             "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.2510115203838423,
+            "current_year_return": 1.1312503830757534,
             "current_year_max_drawdown": -0.35726525515690233,
-            "current_drawdown_from_year_high": -0.26667522234658125,
+            "current_drawdown_from_year_high": -0.30569048663674314,
             "completed_test_quarters": 12
           }
         }
       ],
       "warnings": [
-        "MASTER sembol listesi değiştiği için yalnız aktif çeyrek evreni yenilendi.",
-        "BIST piyasasi acikken kapanmamis gunluk mum degerlendiriliyor; Open/High/Low/Close/Volume seans ilerledikce degisebilir ve ayni gun yeniden calistirmada sinyal degisebilir."
+        "MASTER sembol listesi değiştiği için yalnız aktif çeyrek evreni yenilendi."
       ]
     }
   }
