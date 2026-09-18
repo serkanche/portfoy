@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-18T07:35:01",
+  "generated_at": "2026-09-18T10:08:15",
   "database_file": "BSL_PR.db",
   "tag": "usa",
   "reports": {
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "USA-US-20260918T073501-e1fd2a32",
-      "generated_at": "2026-09-18T07:35:01",
+      "report_id": "USA-US-20260918T100815-3d067a08",
+      "generated_at": "2026-09-18T10:08:15",
       "market_scope": "US",
       "market_name": "Yabancı",
       "data_status": "READY",
@@ -721,7 +721,7 @@
             "n": 20,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-18T07:55:06",
+          "parameter_calculation_date": "2026-09-18T10:10:33",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -772,7 +772,7 @@
             ],
             "trend_ma": 20
           },
-          "parameter_calculation_date": "2026-09-18T07:55:06",
+          "parameter_calculation_date": "2026-09-18T10:10:33",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -827,9 +827,9 @@
           "cash_signal": false,
           "parameters": {
             "volume_confirm": false,
-            "volume_z_min": 0.0
+            "volume_z_min": 0.5
           },
-          "parameter_calculation_date": "2026-09-18T07:55:06",
+          "parameter_calculation_date": "2026-09-18T10:10:33",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -887,7 +887,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.9
           },
-          "parameter_calculation_date": "2026-09-18T07:55:06",
+          "parameter_calculation_date": "2026-09-18T10:10:33",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -902,7 +902,9 @@
           }
         }
       ],
-      "warnings": []
+      "warnings": [
+        "MASTER sembol listesi değiştiği için yalnız aktif çeyrek evreni yenilendi."
+      ]
     }
   }
 }
