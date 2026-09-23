@@ -1,20 +1,20 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-22T23:49:30",
+  "generated_at": "2026-09-23T20:49:25",
   "database_file": "BSL_PR.db",
   "tag": "usa",
   "reports": {
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "USA-US-20260922T234930-0dca21cd",
-      "generated_at": "2026-09-22T23:49:30",
+      "report_id": "USA-US-20260923T204925-f61fb691",
+      "generated_at": "2026-09-23T20:49:25",
       "market_scope": "US",
       "market_name": "Yabancı",
-      "data_status": "READY",
-      "signal_date": "2026-09-22",
+      "data_status": "READY_INTRADAY",
+      "signal_date": "2026-09-23",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
-      "signal_bar_state": "COMPLETED",
+      "signal_bar_state": "INTRADAY_PARTIAL",
       "incomplete_current_day_enabled": true,
       "active_quarter": "2026-Q3",
       "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
@@ -702,12 +702,12 @@
           "portfolio_size": 5,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-22",
+          "signal_date": "2026-09-23",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "COMPLETED",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
@@ -721,7 +721,7 @@
             "n": 20,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-22T23:52:16",
+          "parameter_calculation_date": "2026-09-23T20:52:23",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -742,12 +742,12 @@
           "portfolio_size": 3,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-22",
+          "signal_date": "2026-09-23",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "COMPLETED",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
@@ -772,7 +772,7 @@
             ],
             "trend_ma": 20
           },
-          "parameter_calculation_date": "2026-09-22T23:52:16",
+          "parameter_calculation_date": "2026-09-23T20:52:23",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -793,18 +793,18 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-22",
+          "signal_date": "2026-09-23",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "COMPLETED",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "LIN",
+              "symbol": "CMCSA",
               "market": "US",
               "target_weight": 1.0
             }
@@ -812,14 +812,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "LIN",
+              "symbol": "CMCSA",
               "market": "US",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "LIN",
+              "symbol": "CMCSA",
               "market": "US",
               "weight": 1.0
             }
@@ -829,7 +829,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-22T23:52:16",
+          "parameter_calculation_date": "2026-09-23T20:52:23",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -837,9 +837,9 @@
             "train_max_drawdown": -0.362503213071515,
             "last_3y_test_average_annual_return": 0.8587655974282763,
             "last_3y_test_max_drawdown": -0.29011157909479346,
-            "current_year_return": 0.836206995629599,
+            "current_year_return": 0.8583641750061541,
             "current_year_max_drawdown": -0.29011157909479335,
-            "current_drawdown_from_year_high": -0.12023329181392162,
+            "current_drawdown_from_year_high": -0.10961730526709079,
             "completed_test_quarters": 12
           }
         },
@@ -850,44 +850,26 @@
           "portfolio_size": 1,
           "quarter_id": "2026-Q3",
           "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
-          "data_status": "READY",
+          "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-22",
+          "signal_date": "2026-09-23",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
-          "signal_bar_state": "COMPLETED",
+          "signal_bar_state": "INTRADAY_PARTIAL",
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [
-            {
-              "symbol": "MU",
-              "market": "US",
-              "target_weight": 1.0
-            }
-          ],
+          "buy_signal": [],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [
-            {
-              "symbol": "MU",
-              "market": "US",
-              "weight": 1.0
-            }
-          ],
-          "actionable_target_portfolio": [
-            {
-              "symbol": "MU",
-              "market": "US",
-              "weight": 1.0
-            }
-          ],
-          "cash_signal": false,
+          "target_portfolio_from_cash": [],
+          "actionable_target_portfolio": [],
+          "cash_signal": true,
           "parameters": {
             "momentum_window": 40,
             "prob_threshold": 0.75,
             "teacher_weight": 0.9
           },
-          "parameter_calculation_date": "2026-09-22T23:52:16",
+          "parameter_calculation_date": "2026-09-23T20:52:23",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -895,15 +877,16 @@
             "train_max_drawdown": -0.5080864388128363,
             "last_3y_test_average_annual_return": 0.7529454400505674,
             "last_3y_test_max_drawdown": -0.5946376270080391,
-            "current_year_return": 0.47742534237230916,
+            "current_year_return": 0.44189685276651347,
             "current_year_max_drawdown": -0.24268289409462362,
-            "current_drawdown_from_year_high": -0.21345497862301843,
+            "current_drawdown_from_year_high": -0.23236947522398466,
             "completed_test_quarters": 12
           }
         }
       ],
       "warnings": [
-        "MASTER sembol listesi değiştiği için yalnız aktif çeyrek evreni yenilendi."
+        "MASTER sembol listesi değiştiği için yalnız aktif çeyrek evreni yenilendi.",
+        "US piyasasi acikken kapanmamis gunluk mum degerlendiriliyor; Open/High/Low/Close/Volume seans ilerledikce degisebilir ve ayni gun yeniden calistirmada sinyal degisebilir."
       ]
     }
   }
