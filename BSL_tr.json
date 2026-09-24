@@ -1,13 +1,13 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-24T17:49:40",
+  "generated_at": "2026-09-24T18:46:37",
   "database_file": "BSL_PR.db",
   "tag": "tr",
   "reports": {
     "BIST": {
       "schema_version": "2.2.0",
-      "report_id": "TR-BIST-20260924T174940-e48f7522",
-      "generated_at": "2026-09-24T17:49:40",
+      "report_id": "TR-BIST-20260924T184637-321c7271",
+      "generated_at": "2026-09-24T18:46:37",
       "market_scope": "BIST",
       "market_name": "Yerli BIST",
       "data_status": "READY_INTRADAY",
@@ -512,7 +512,7 @@
         "ZOREN"
       ],
       "fixed_us_symbols": [],
-      "latest_symbol_coverage": 0.9841269841269841,
+      "latest_symbol_coverage": 1.0,
       "last_3y_completed_test_quarters": [
         "2023-Q3",
         "2023-Q4",
@@ -554,7 +554,7 @@
             "n": 20,
             "volume_z_min": -0.5
           },
-          "parameter_calculation_date": "2026-09-24T17:52:06",
+          "parameter_calculation_date": "2026-09-24T18:48:55",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -562,9 +562,9 @@
             "train_max_drawdown": -0.43284705264193857,
             "last_3y_test_average_annual_return": 0.5852648885031335,
             "last_3y_test_max_drawdown": -0.36795083322636946,
-            "current_year_return": -0.09137760691579289,
+            "current_year_return": -0.08929845919322377,
             "current_year_max_drawdown": -0.3158711829183172,
-            "current_drawdown_from_year_high": -0.27489744611266764,
+            "current_drawdown_from_year_high": -0.2732382361537027,
             "completed_test_quarters": 12
           }
         },
@@ -605,7 +605,7 @@
             ],
             "trend_ma": 10
           },
-          "parameter_calculation_date": "2026-09-24T17:52:06",
+          "parameter_calculation_date": "2026-09-24T18:48:55",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -644,7 +644,7 @@
             "volume_confirm": false,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-24T17:52:06",
+          "parameter_calculation_date": "2026-09-24T18:48:55",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -652,9 +652,9 @@
             "train_max_drawdown": -0.7547525339255292,
             "last_3y_test_average_annual_return": 0.3288362076498497,
             "last_3y_test_max_drawdown": -0.4860718465231533,
-            "current_year_return": 0.40508371558914,
+            "current_year_return": 0.4117099534458446,
             "current_year_max_drawdown": -0.33476325994404554,
-            "current_drawdown_from_year_high": -0.04835812774892867,
+            "current_drawdown_from_year_high": -0.043703849765630576,
             "completed_test_quarters": 12
           }
         },
@@ -674,17 +674,35 @@
           "current_positions": [],
           "sell_signal": [],
           "hold_signal": [],
-          "buy_signal": [],
+          "buy_signal": [
+            {
+              "symbol": "TKFEN",
+              "market": "BIST",
+              "target_weight": 1.0
+            }
+          ],
           "rebalance_signal": [],
-          "target_portfolio_from_cash": [],
-          "actionable_target_portfolio": [],
-          "cash_signal": true,
+          "target_portfolio_from_cash": [
+            {
+              "symbol": "TKFEN",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "actionable_target_portfolio": [
+            {
+              "symbol": "TKFEN",
+              "market": "BIST",
+              "weight": 1.0
+            }
+          ],
+          "cash_signal": false,
           "parameters": {
             "momentum_window": 20,
             "prob_threshold": 0.75,
             "teacher_weight": 0.5
           },
-          "parameter_calculation_date": "2026-09-24T17:52:06",
+          "parameter_calculation_date": "2026-09-24T18:48:55",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -692,9 +710,9 @@
             "train_max_drawdown": -0.8688161927424601,
             "last_3y_test_average_annual_return": 2.549566638446099,
             "last_3y_test_max_drawdown": -0.4833490075135445,
-            "current_year_return": 1.302662707656943,
+            "current_year_return": 1.312932502054526,
             "current_year_max_drawdown": -0.35726525515690233,
-            "current_drawdown_from_year_high": -0.2498485224032052,
+            "current_drawdown_from_year_high": -0.24650287329170273,
             "completed_test_quarters": 12
           }
         }
