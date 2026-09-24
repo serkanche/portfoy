@@ -1,17 +1,17 @@
 {
   "schema_version": "2.2.0",
-  "generated_at": "2026-09-23T20:49:25",
+  "generated_at": "2026-09-24T20:49:04",
   "database_file": "BSL_PR.db",
   "tag": "usa",
   "reports": {
     "US": {
       "schema_version": "2.2.0",
-      "report_id": "USA-US-20260923T204925-f61fb691",
-      "generated_at": "2026-09-23T20:49:25",
+      "report_id": "USA-US-20260924T204904-f26425c4",
+      "generated_at": "2026-09-24T20:49:04",
       "market_scope": "US",
       "market_name": "Yabancı",
       "data_status": "READY_INTRADAY",
-      "signal_date": "2026-09-23",
+      "signal_date": "2026-09-24",
       "execution_date": null,
       "execution_timing": "USER_DECIDES",
       "signal_bar_state": "INTRADAY_PARTIAL",
@@ -704,7 +704,7 @@
           "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-23",
+          "signal_date": "2026-09-24",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
@@ -721,7 +721,7 @@
             "n": 20,
             "volume_z_min": 0.0
           },
-          "parameter_calculation_date": "2026-09-23T20:52:23",
+          "parameter_calculation_date": "2026-09-24T20:51:27",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -744,7 +744,7 @@
           "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-23",
+          "signal_date": "2026-09-24",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
@@ -772,7 +772,7 @@
             ],
             "trend_ma": 20
           },
-          "parameter_calculation_date": "2026-09-23T20:52:23",
+          "parameter_calculation_date": "2026-09-24T20:51:27",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -795,7 +795,7 @@
           "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-23",
+          "signal_date": "2026-09-24",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
@@ -804,7 +804,7 @@
           "hold_signal": [],
           "buy_signal": [
             {
-              "symbol": "CMCSA",
+              "symbol": "INTC",
               "market": "US",
               "target_weight": 1.0
             }
@@ -812,14 +812,14 @@
           "rebalance_signal": [],
           "target_portfolio_from_cash": [
             {
-              "symbol": "CMCSA",
+              "symbol": "INTC",
               "market": "US",
               "weight": 1.0
             }
           ],
           "actionable_target_portfolio": [
             {
-              "symbol": "CMCSA",
+              "symbol": "INTC",
               "market": "US",
               "weight": 1.0
             }
@@ -827,9 +827,9 @@
           "cash_signal": false,
           "parameters": {
             "volume_confirm": false,
-            "volume_z_min": 0.0
+            "volume_z_min": 0.5
           },
-          "parameter_calculation_date": "2026-09-23T20:52:23",
+          "parameter_calculation_date": "2026-09-24T20:51:27",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -837,9 +837,9 @@
             "train_max_drawdown": -0.362503213071515,
             "last_3y_test_average_annual_return": 0.8587655974282763,
             "last_3y_test_max_drawdown": -0.29011157909479346,
-            "current_year_return": 0.8583641750061541,
+            "current_year_return": 0.8413184898660051,
             "current_year_max_drawdown": -0.29011157909479335,
-            "current_drawdown_from_year_high": -0.10961730526709079,
+            "current_drawdown_from_year_high": -0.11778426375282691,
             "completed_test_quarters": 12
           }
         },
@@ -852,7 +852,7 @@
           "database_quarter_key": "LIST_A01464CCC30B4AA63918|US|2026-Q3",
           "data_status": "READY_INTRADAY",
           "actionable": true,
-          "signal_date": "2026-09-23",
+          "signal_date": "2026-09-24",
           "execution_date": null,
           "execution_timing": "USER_DECIDES",
           "signal_bar_state": "INTRADAY_PARTIAL",
@@ -869,7 +869,7 @@
             "prob_threshold": 0.75,
             "teacher_weight": 0.9
           },
-          "parameter_calculation_date": "2026-09-23T20:52:23",
+          "parameter_calculation_date": "2026-09-24T20:51:27",
           "train_start": "2016-07-01",
           "train_end": "2026-06-30",
           "performance": {
@@ -877,9 +877,9 @@
             "train_max_drawdown": -0.5080864388128363,
             "last_3y_test_average_annual_return": 0.7529454400505674,
             "last_3y_test_max_drawdown": -0.5946376270080391,
-            "current_year_return": 0.44189685276651347,
+            "current_year_return": 0.44470025709021654,
             "current_year_max_drawdown": -0.24268289409462362,
-            "current_drawdown_from_year_high": -0.23236947522398466,
+            "current_drawdown_from_year_high": -0.23087701150993,
             "completed_test_quarters": 12
           }
         }
